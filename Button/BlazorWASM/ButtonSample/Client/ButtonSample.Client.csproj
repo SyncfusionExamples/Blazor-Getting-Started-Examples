@@ -13,4 +13,8 @@
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="19.4.0.48" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\ButtonSample.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
