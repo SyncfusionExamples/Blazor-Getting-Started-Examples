@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.WordProcessor" Version="19.4.0.48" />
+  </ItemGroup>
+
+</Project>
