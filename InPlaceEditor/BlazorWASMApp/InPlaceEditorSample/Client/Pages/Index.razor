@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<table>
+    <tr>
+        <td>
+            <label class="control-label" style="text-align: left;font-size: 14px;font-weight: 400">
+                TextBox
+            </label>
+        </td>
+        <td>
+            <SfInPlaceEditor @bind-Value="@TextValue" TValue="string">
+                <EditorComponent>
+                    <SfTextBox @bind-Value="@TextValue" Placeholder="Enter employee name"></SfTextBox>
+                </EditorComponent>
+            </SfInPlaceEditor>
+        </td>
+    </tr>
+</table>
+
+@code {
+    public string TextValue = "Andrew";
+}
