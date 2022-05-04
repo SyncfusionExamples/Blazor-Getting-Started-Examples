@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="20.1.0.52" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="20.1.0.52" />
+  </ItemGroup>
+
+</Project>
