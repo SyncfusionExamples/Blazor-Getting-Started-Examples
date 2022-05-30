@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
-    <PackageReference Include="Syncfusion.Blazor.PdfViewer" Version="19.4.0.49" />
+    <PackageReference Include="Syncfusion.Blazor.PdfViewer" Version="19.4.0.48" />
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="19.4.0.48" />
   </ItemGroup>
 

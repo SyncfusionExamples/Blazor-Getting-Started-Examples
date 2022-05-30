@@ -1,0 +1,12 @@
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\bin\Debug\net6.0\PDFViewerSample.Shared.deps.json
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\bin\Debug\net6.0\PDFViewerSample.Shared.dll
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\bin\Debug\net6.0\PDFViewerSample.Shared.pdb
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.csproj.AssemblyReference.cache
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.AssemblyInfoInputs.cache
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.AssemblyInfo.cs
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.csproj.CoreCompileInputs.cache
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.dll
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\refint\PDFViewerSample.Shared.dll
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\PDFViewerSample.Shared.pdb
+F:\Code\Blazor-Getting-Started-Examples\PDFViewer\BlazorWASMApp\PDFViewerSample\Shared\obj\Debug\net6.0\ref\PDFViewerSample.Shared.dll

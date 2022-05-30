@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Client\\PDFViewerSample.Client.csproj": {}
+  },
+  "projects": {
+    "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Client\\PDFViewerSample.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Client\\PDFViewerSample.Client.csproj",
+        "projectName": "PDFViewerSample.Client",
+        "projectPath": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Client\\PDFViewerSample.Client.csproj",
+        "packagesPath": "C:\\Users\\Kirk\\.nuget\\packages\\",
+        "outputPath": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kirk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\PDFViewerSample.Shared.csproj": {
+                "projectPath": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\PDFViewerSample.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Syncfusion.Blazor.PdfViewer": {
+              "target": "Package",
+              "version": "[19.4.0.48, )"
+            },
+            "Syncfusion.Blazor.Themes": {
+              "target": "Package",
+              "version": "[19.4.0.48, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.5, 6.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\PDFViewerSample.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\PDFViewerSample.Shared.csproj",
+        "projectName": "PDFViewerSample.Shared",
+        "projectPath": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\PDFViewerSample.Shared.csproj",
+        "packagesPath": "C:\\Users\\Kirk\\.nuget\\packages\\",
+        "outputPath": "F:\\Code\\Blazor-Getting-Started-Examples\\PDFViewer\\BlazorWASMApp\\PDFViewerSample\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kirk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
