@@ -1,0 +1,36 @@
+﻿@page "/click-item"
+
+@*SpeedDial sample with 'Target' to position a speeddial button based on the target.*@
+
+<div id="target" style="min-height:200px; position:relative; width:300px; border:1px solid;">
+    <SfSpeedDial Target="#target" OpenIconCss="e-icons e-edit" ItemClicked="ItemEventClick">
+        <SpeedDialItems>
+            <SpeedDialItem IconCss="e-icons e-cut" Text="Cut"/>
+            <SpeedDialItem IconCss="e-icons e-copy" Text="Copy"/>
+            <SpeedDialItem IconCss="e-icons e-paste" Text="Paste"/>
+        </SpeedDialItems>        
+    </SfSpeedDial>
+</div>
+
+@*SpeedDial sample without 'Target' to position a speeddial button based on the browser viewport.*@
+
+<SfSpeedDial OpenIconCss="e-icons e-edit" ItemClicked="ItemEventClick">
+    <SpeedDialItems>
+        <SpeedDialItem IconCss="e-icons e-cut" Text="Cut"/>
+        <SpeedDialItem IconCss="e-icons e-copy" Text="Copy"/>
+        <SpeedDialItem IconCss="e-icons e-paste" Text="Paste"/>
+    </SpeedDialItems>        
+</SfSpeedDial>
+
+
+<label>Event log</label>
+<div style="border:1px solid;min-height:20px;"> @((MarkupString)log)</div>
+
+@code{
+    private string log = "";
+    public void ItemEventClick(SpeedDialItemEventArgs args)
+    {
+        // Here, you can call your desired action.    
+        log = log + "Item Clicked.<br/>";
+    }
+}
