@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,8 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
-    <PackageReference Include="Syncfusion.Blazor.Diagram" Version="19.4.0.48" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Diagram" Version="*" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="*" />
   </ItemGroup>
 
   <ItemGroup>
