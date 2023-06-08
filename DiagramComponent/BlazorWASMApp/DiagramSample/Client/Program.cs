@@ -9,6 +9,6 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 //Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("your license key");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });
+builder.Services.AddSyncfusionBlazor();
 
 await builder.Build().RunAsync();

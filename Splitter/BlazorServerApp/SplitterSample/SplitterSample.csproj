@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="19.4.0.50" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="19.4.0.50" />
+    <PackageReference Include="Syncfusion.Blazor.Diagram" Version="21.2.8" />
+    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="*" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="*" />
   </ItemGroup>
 
 </Project>
