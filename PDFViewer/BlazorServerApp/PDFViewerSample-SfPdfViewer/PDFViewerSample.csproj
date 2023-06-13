@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.SfPdfViewer" Version="100.1.1" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="21.2.10" />
+    <PackageReference Include="Syncfusion.Licensing" Version="21.2.10" />
+  </ItemGroup>
+
+</Project>
