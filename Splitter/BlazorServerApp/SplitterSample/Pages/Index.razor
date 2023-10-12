@@ -1,61 +1,32 @@
 ﻿@page "/"
 
-@using SplitterOrientation = Syncfusion.Blazor.Layouts.Orientation
-
 <div>Horizontal Splitter</div>
-<div style="margin:0;padding:0;height:600px;width:100%;">
-    <SfSplitter @ref="@Splitter" CssClass="out-splitter" Height="100%" Width="100%" SeparatorSize="4" Orientation="@SplitterOrientation">
-        <SplitterEvents OnResizeStop="@OnSplitterResizeStopHandler"></SplitterEvents>
+
+<SfSplitter Height="240px" Width="100%">
     <SplitterPanes>
-            <SplitterPane Size="25%" Min="60px">
+        <SplitterPane>
             <ContentTemplate>
-                <div> Left Pane </div>
+                <div class="centered-content"> Left Pane </div>
             </ContentTemplate>
         </SplitterPane>
-        <SplitterPane Size="50%" Min="60px">
+        <SplitterPane>
             <ContentTemplate>
-                    <SfDiagramComponent @ref="Diagram" Height=@dHeight Width=@dWidth></SfDiagramComponent>
+                <div class="centered-content"> Middle Pane </div>
             </ContentTemplate>
         </SplitterPane>
-        <SplitterPane Size="25%" Min="60px">
+        <SplitterPane>
             <ContentTemplate>
-                <div> Right Pane </div>
+                <div class="centered-content"> Right Pane </div>
             </ContentTemplate>
         </SplitterPane>
     </SplitterPanes>
 </SfSplitter>
-</div>
 
-
-@code{
-    string dHeight = "100%";
-    string dWidth = "100%";
-    SfDiagramComponent Diagram;
-    SfSplitter Splitter;
-    SplitterOrientation SplitterOrientation = SplitterOrientation.Vertical;
-
-    public void OnSplitterResizeStopHandler(ResizingEventArgs args)
-    {
-        int index = 0;
-        if(args.Index != null)
-        {
-            for (int i = 0; i < args.Index.Length; i++)
-            {
-                if(args.Index[i]== 1)
-                {
-                    // Index of the diagram pane based on the order of rendering
-                    index = i;
-                }
-            }
-        }
-        if(SplitterOrientation == SplitterOrientation.Horizontal)
-        {
-            dWidth = (args.PaneSize[index]-2).ToString() + "px";
-        }
-        else
-        {
-            dHeight = (args.PaneSize[index]-2).ToString() + "px";
-        }
-
+<style>
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
-}
+</style>
