@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarSample", "ProgressBarSample\ProgressBarSample.csproj", "{C44458EF-E023-47D5-9233-597BB3B3EA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarSample.Client", "ProgressBarSample.Client\ProgressBarSample.Client.csproj", "{BEF9FC0E-079C-42D4-BC99-43661A12D092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44458EF-E023-47D5-9233-597BB3B3EA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44458EF-E023-47D5-9233-597BB3B3EA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44458EF-E023-47D5-9233-597BB3B3EA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44458EF-E023-47D5-9233-597BB3B3EA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF9FC0E-079C-42D4-BC99-43661A12D092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF9FC0E-079C-42D4-BC99-43661A12D092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF9FC0E-079C-42D4-BC99-43661A12D092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF9FC0E-079C-42D4-BC99-43661A12D092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79F903B3-6DF3-42E9-9018-7E1953B326D0}
+	EndGlobalSection
+EndGlobal

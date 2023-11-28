@@ -1,0 +1,24 @@
+﻿@page "/listview"
+@rendermode InteractiveAuto
+
+<SfListView DataSource="@Data">
+    <ListViewFieldSettings TValue="DataModel" Id="Id" Text="Text"></ListViewFieldSettings>
+</SfListView>
+
+@code
+{
+    private DataModel[] Data =
+     {
+        new DataModel { Text = "ArtWork", Id = "list-01" },
+        new DataModel { Text = "Abstract", Id = "list-02" },
+        new DataModel { Text = "Modern Painting", Id = "list-03" },
+        new DataModel { Text = "Ceramics", Id = "list-04" },
+        new DataModel { Text = "Animation Art", Id = "list-05" },
+        new DataModel { Text = "Oil Painting", Id = "list-06" }
+    };
+    public class DataModel
+    {
+        public string Text { get; set; }
+        public string Id { get; set; }
+    }
+}

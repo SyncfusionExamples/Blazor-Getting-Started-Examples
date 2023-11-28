@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppbarSample", "AppbarSample\AppbarSample.csproj", "{BA34162D-99B7-4C91-AF33-6A03EBCA8B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppbarSample.Client", "AppbarSample.Client\AppbarSample.Client.csproj", "{9FABF507-709B-4BEA-896C-668A2F6F58D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA34162D-99B7-4C91-AF33-6A03EBCA8B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA34162D-99B7-4C91-AF33-6A03EBCA8B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA34162D-99B7-4C91-AF33-6A03EBCA8B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA34162D-99B7-4C91-AF33-6A03EBCA8B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FABF507-709B-4BEA-896C-668A2F6F58D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FABF507-709B-4BEA-896C-668A2F6F58D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FABF507-709B-4BEA-896C-668A2F6F58D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FABF507-709B-4BEA-896C-668A2F6F58D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {582649B7-2F73-41FE-9B1A-77E31A88C82F}
+	EndGlobalSection
+EndGlobal
