@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureSample", "SignatureSample\SignatureSample.csproj", "{F809A1FE-DB05-44BA-8A26-A8E630742409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureSample.Client", "SignatureSample.Client\SignatureSample.Client.csproj", "{97C15CE1-EBBB-4F45-9D65-20C9CB6EE99E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F809A1FE-DB05-44BA-8A26-A8E630742409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F809A1FE-DB05-44BA-8A26-A8E630742409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F809A1FE-DB05-44BA-8A26-A8E630742409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F809A1FE-DB05-44BA-8A26-A8E630742409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C15CE1-EBBB-4F45-9D65-20C9CB6EE99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C15CE1-EBBB-4F45-9D65-20C9CB6EE99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C15CE1-EBBB-4F45-9D65-20C9CB6EE99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C15CE1-EBBB-4F45-9D65-20C9CB6EE99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA261ADE-3B0B-4FBE-A7CB-2CF38DB2C77E}
+	EndGlobalSection
+EndGlobal

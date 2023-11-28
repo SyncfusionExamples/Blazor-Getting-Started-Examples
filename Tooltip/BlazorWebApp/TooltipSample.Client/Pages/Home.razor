@@ -1,0 +1,12 @@
+﻿@page "/"
+@rendermode InteractiveAuto
+@using Syncfusion.Blazor.Buttons
+
+<SfTooltip ID="Tooltip" Target="#btn" Content="@Content">
+    <SfButton ID="btn" Content="Show Tooltip"></SfButton>
+</SfTooltip>
+
+@code
+{
+    string Content = "Lets go green & Save Earth !!";
+}

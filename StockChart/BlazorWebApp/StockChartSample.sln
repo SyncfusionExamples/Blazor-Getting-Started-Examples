@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockChartSample", "StockChartSample\StockChartSample.csproj", "{FC849DE5-0F89-483B-8C8E-B9C46808581F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockChartSample.Client", "StockChartSample.Client\StockChartSample.Client.csproj", "{20E998C6-E6FD-4BFE-A5BA-23DE0BE9EE6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC849DE5-0F89-483B-8C8E-B9C46808581F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC849DE5-0F89-483B-8C8E-B9C46808581F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC849DE5-0F89-483B-8C8E-B9C46808581F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC849DE5-0F89-483B-8C8E-B9C46808581F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E998C6-E6FD-4BFE-A5BA-23DE0BE9EE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E998C6-E6FD-4BFE-A5BA-23DE0BE9EE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E998C6-E6FD-4BFE-A5BA-23DE0BE9EE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E998C6-E6FD-4BFE-A5BA-23DE0BE9EE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C1C80D6-B3FA-4AE4-9F39-584D6EAE7882}
+	EndGlobalSection
+EndGlobal

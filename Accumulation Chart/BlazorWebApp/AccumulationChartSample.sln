@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccumulationChartSample", "AccumulationChartSample\AccumulationChartSample.csproj", "{BED26832-A3A3-4D63-9D81-D59A00FF4B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccumulationChartSample.Client", "AccumulationChartSample.Client\AccumulationChartSample.Client.csproj", "{7447971B-C403-4D73-8711-28B7A9BA3B0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED26832-A3A3-4D63-9D81-D59A00FF4B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED26832-A3A3-4D63-9D81-D59A00FF4B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED26832-A3A3-4D63-9D81-D59A00FF4B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED26832-A3A3-4D63-9D81-D59A00FF4B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7447971B-C403-4D73-8711-28B7A9BA3B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7447971B-C403-4D73-8711-28B7A9BA3B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7447971B-C403-4D73-8711-28B7A9BA3B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7447971B-C403-4D73-8711-28B7A9BA3B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEF391B3-AEA9-4C88-8D55-985899EC10B8}
+	EndGlobalSection
+EndGlobal
