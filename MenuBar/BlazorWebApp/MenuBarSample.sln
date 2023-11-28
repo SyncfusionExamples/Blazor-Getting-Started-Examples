@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBarSample", "MenuBarSample\MenuBarSample.csproj", "{B7942E57-0D2A-498E-9832-8F0BC233E808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuBarSample.Client", "MenuBarSample.Client\MenuBarSample.Client.csproj", "{6040312E-75B0-4041-BB63-15D6FD25794E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7942E57-0D2A-498E-9832-8F0BC233E808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7942E57-0D2A-498E-9832-8F0BC233E808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7942E57-0D2A-498E-9832-8F0BC233E808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7942E57-0D2A-498E-9832-8F0BC233E808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6040312E-75B0-4041-BB63-15D6FD25794E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6040312E-75B0-4041-BB63-15D6FD25794E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6040312E-75B0-4041-BB63-15D6FD25794E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6040312E-75B0-4041-BB63-15D6FD25794E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AEEF7E0-A721-41CA-8024-C494D61B5E6C}
+	EndGlobalSection
+EndGlobal

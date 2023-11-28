@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagerSample", "PagerSample\PagerSample.csproj", "{A88598EB-59EA-4845-9D33-2D63243DF54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PagerSample.Client", "PagerSample.Client\PagerSample.Client.csproj", "{9148CCB5-B30A-477A-A9BD-0EAED063E0BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88598EB-59EA-4845-9D33-2D63243DF54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88598EB-59EA-4845-9D33-2D63243DF54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88598EB-59EA-4845-9D33-2D63243DF54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88598EB-59EA-4845-9D33-2D63243DF54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9148CCB5-B30A-477A-A9BD-0EAED063E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9148CCB5-B30A-477A-A9BD-0EAED063E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9148CCB5-B30A-477A-A9BD-0EAED063E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9148CCB5-B30A-477A-A9BD-0EAED063E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C938B02-EB40-441B-98D6-6126DB695562}
+	EndGlobalSection
+EndGlobal
