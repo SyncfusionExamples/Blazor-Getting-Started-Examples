@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePickerSample", "DateTimePickerSample\DateTimePickerSample.csproj", "{E365172F-9ABC-47D8-877A-3B222CAFACF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePickerSample.Client", "DateTimePickerSample.Client\DateTimePickerSample.Client.csproj", "{1605B994-CA13-4DA9-84A9-516E624BB871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E365172F-9ABC-47D8-877A-3B222CAFACF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E365172F-9ABC-47D8-877A-3B222CAFACF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E365172F-9ABC-47D8-877A-3B222CAFACF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E365172F-9ABC-47D8-877A-3B222CAFACF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1605B994-CA13-4DA9-84A9-516E624BB871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1605B994-CA13-4DA9-84A9-516E624BB871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1605B994-CA13-4DA9-84A9-516E624BB871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1605B994-CA13-4DA9-84A9-516E624BB871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E22E13C-BC22-48B9-A929-B72BF0CDA335}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangePickerSample", "DateRangePickerSample\DateRangePickerSample.csproj", "{9C53E4CA-F56A-48EC-A614-A47E851B01C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangePickerSample.Client", "DateRangePickerSample.Client\DateRangePickerSample.Client.csproj", "{FCF0039A-E63E-4241-B1B9-72456E1715CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C53E4CA-F56A-48EC-A614-A47E851B01C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C53E4CA-F56A-48EC-A614-A47E851B01C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C53E4CA-F56A-48EC-A614-A47E851B01C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C53E4CA-F56A-48EC-A614-A47E851B01C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF0039A-E63E-4241-B1B9-72456E1715CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF0039A-E63E-4241-B1B9-72456E1715CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF0039A-E63E-4241-B1B9-72456E1715CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF0039A-E63E-4241-B1B9-72456E1715CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {681D0DA2-3BB9-4A61-B3B9-9A13598C3D06}
+	EndGlobalSection
+EndGlobal
