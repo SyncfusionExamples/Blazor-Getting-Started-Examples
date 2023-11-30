@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagramSample", "DiagramSample\DiagramSample.csproj", "{8C71BC1A-73EF-4A52-8B5B-ABCF779613A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagramSample.Client", "DiagramSample.Client\DiagramSample.Client.csproj", "{5EEC6254-2D14-48D7-BECF-1D3A7DF33060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C71BC1A-73EF-4A52-8B5B-ABCF779613A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C71BC1A-73EF-4A52-8B5B-ABCF779613A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C71BC1A-73EF-4A52-8B5B-ABCF779613A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C71BC1A-73EF-4A52-8B5B-ABCF779613A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEC6254-2D14-48D7-BECF-1D3A7DF33060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEC6254-2D14-48D7-BECF-1D3A7DF33060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEC6254-2D14-48D7-BECF-1D3A7DF33060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEC6254-2D14-48D7-BECF-1D3A7DF33060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1DFC91A-773B-4370-88E1-85D1050104FE}
+	EndGlobalSection
+EndGlobal
