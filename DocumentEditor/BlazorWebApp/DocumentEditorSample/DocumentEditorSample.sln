@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentEditorSample", "DocumentEditorSample\DocumentEditorSample.csproj", "{06C8E607-3255-4372-91E5-F5F1A6D63857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentEditorSample.Client", "DocumentEditorSample.Client\DocumentEditorSample.Client.csproj", "{EFCBA73A-AAE6-4C2C-A3BF-1F27F80BC57F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C8E607-3255-4372-91E5-F5F1A6D63857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C8E607-3255-4372-91E5-F5F1A6D63857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C8E607-3255-4372-91E5-F5F1A6D63857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C8E607-3255-4372-91E5-F5F1A6D63857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCBA73A-AAE6-4C2C-A3BF-1F27F80BC57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCBA73A-AAE6-4C2C-A3BF-1F27F80BC57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCBA73A-AAE6-4C2C-A3BF-1F27F80BC57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCBA73A-AAE6-4C2C-A3BF-1F27F80BC57F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6047DDA4-E46B-49C3-A106-17E83AD81CF9}
+	EndGlobalSection
+EndGlobal
