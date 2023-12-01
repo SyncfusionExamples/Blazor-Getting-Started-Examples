@@ -1,0 +1,83 @@
+﻿@page "/counter"
+@rendermode InteractiveAuto
+
+@using Syncfusion.Blazor.InPlaceEditor
+@using Syncfusion.Blazor.Inputs
+@using Syncfusion.Blazor.Calendars
+@using Syncfusion.Blazor.DropDowns
+
+<div id="container" class="control-group">
+    <h3> Modify Basic Details </h3>
+    <table style="margin: 10px auto;">
+        <tr>
+            <td>Name</td>
+            <td class='left'>
+                <SfInPlaceEditor @bind-Value="@TextValue" TValue="string">
+                    <EditorComponent>
+                        <SfTextBox @bind-Value="@TextValue" Placeholder="Enter your name"></SfTextBox>
+                    </EditorComponent>
+                </SfInPlaceEditor>
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td class='left'>
+                <SfInPlaceEditor Type="Syncfusion.Blazor.InPlaceEditor.InputType.Date" TValue="DateTime?" @bind-Value="@DateValue">
+                    <EditorComponent>
+                        <SfDatePicker TValue="DateTime?" @bind-Value="@DateValue" Placeholder="Select date"></SfDatePicker>
+                    </EditorComponent>
+                </SfInPlaceEditor>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td class='left'>
+                <SfInPlaceEditor @bind-Value="@DropdownValue" Type="Syncfusion.Blazor.InPlaceEditor.InputType.DropDownList"  TValue="string">
+                    <EditorComponent>
+                        <SfDropDownList Width="90%" TItem="Gender" TValue="string" DataSource="@dropdownData" @bind-Value="@DropdownValue">
+                            <DropDownListFieldSettings Text="text" Value="text"></DropDownListFieldSettings>
+                        </SfDropDownList>
+                    </EditorComponent>
+                </SfInPlaceEditor>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<style>
+    #container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+        #container table {
+            width: 400px;
+            margin: auto;
+        }
+
+            #container table td {
+                height: 70px;
+                width: 150px;
+            }
+
+            #container table .left {
+                text-align: left;
+            }
+</style>
+
+@code {
+    public DateTime? DateValue { get; set; } = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+    public string TextValue = "Andrew";
+    public string DropdownValue = "Male";
+
+    public class Gender
+    {
+        public string value { get; set; }
+        public string text { get; set; }
+    }
+    List<Gender> dropdownData = new List<Gender>()
+    {
+        new Gender(){ text= "Male" },
+        new Gender(){ text= "Female" }
+    };
+}
