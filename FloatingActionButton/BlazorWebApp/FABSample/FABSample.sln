@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FABSample", "FABSample\FABSample.csproj", "{DC66DAAD-3B7A-47CE-A3B6-22D2E566388A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FABSample.Client", "FABSample.Client\FABSample.Client.csproj", "{B76507E1-603C-470F-8678-2277E78E5824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC66DAAD-3B7A-47CE-A3B6-22D2E566388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC66DAAD-3B7A-47CE-A3B6-22D2E566388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC66DAAD-3B7A-47CE-A3B6-22D2E566388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC66DAAD-3B7A-47CE-A3B6-22D2E566388A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76507E1-603C-470F-8678-2277E78E5824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76507E1-603C-470F-8678-2277E78E5824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76507E1-603C-470F-8678-2277E78E5824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76507E1-603C-470F-8678-2277E78E5824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5399AD2-D347-4C1C-AF0D-DCE170CDFB83}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskedTextBoxSample", "MaskedTextBoxSample\MaskedTextBoxSample.csproj", "{41CC5609-F5A6-4266-B311-BD5EAB485DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskedTextBoxSample.Client", "MaskedTextBoxSample.Client\MaskedTextBoxSample.Client.csproj", "{1F744529-AD44-4216-8D3F-1D9DE8F5387B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41CC5609-F5A6-4266-B311-BD5EAB485DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CC5609-F5A6-4266-B311-BD5EAB485DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CC5609-F5A6-4266-B311-BD5EAB485DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CC5609-F5A6-4266-B311-BD5EAB485DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F744529-AD44-4216-8D3F-1D9DE8F5387B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F744529-AD44-4216-8D3F-1D9DE8F5387B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F744529-AD44-4216-8D3F-1D9DE8F5387B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F744529-AD44-4216-8D3F-1D9DE8F5387B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB189A3-7D3E-4E67-941E-9ADDB823DE3C}
+	EndGlobalSection
+EndGlobal

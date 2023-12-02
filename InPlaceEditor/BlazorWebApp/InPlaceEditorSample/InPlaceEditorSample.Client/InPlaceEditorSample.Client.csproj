@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
+    <StaticWebAssetProjectMode>Default</StaticWebAssetProjectMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="23.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.InPlaceEditor" Version="23.2.6" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="23.2.6" />
+  </ItemGroup>
+
+</Project>
