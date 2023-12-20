@@ -1,0 +1,58 @@
+﻿@page "/"
+
+@using System.ComponentModel.DataAnnotations
+
+<div class="col-lg-12 control-section">
+    <div class="control-wrapper">
+        <h4 class="control-header">Event Registration Form</h4>
+            <SfDataForm Model="@EmployeeDetail">
+                <FormValidator>
+                    <DataAnnotationsValidator></DataAnnotationsValidator>
+                </FormValidator>
+                <FormItems>
+                    <FormAutoGenerateItems></FormAutoGenerateItems>
+                </FormItems>
+            </SfDataForm>
+    </div>
+</div>
+
+<style>
+    .control-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0px 0px 0px;
+    }
+    .control-header{
+        text-align:center;
+    }
+</style>
+
+@code {
+
+    private EmployeeDetails EmployeeDetail = new EmployeeDetails()
+    {
+        FirstName = "Anne",
+        LastName = "Lawsen"
+    };
+
+    public class EmployeeDetails
+    {
+        [Required(ErrorMessage = "Please enter your first name.")]
+        [Display(Name = "First Name")]
+        public string? FirstName { get; set; }
+
+        [Required(ErrorMessage = "Please enter your last name.")]
+        [Display(Name = "Last Name")]
+        public string? LastName { get; set; }
+
+        [Required(ErrorMessage = "Please enter your email address.")]
+        [EmailAddress(ErrorMessage = "Please enter a valid email address.")]
+        [Display(Name = "Email ID")]
+        public string? Email { get; set; }
+
+        [Required]
+        [Display(Name = "Date of Birth")]
+        public DateTime? DOB { get; set; }
+    }
+    
+}
