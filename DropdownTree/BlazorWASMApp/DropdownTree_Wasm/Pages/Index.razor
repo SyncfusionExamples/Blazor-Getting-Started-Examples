@@ -1,0 +1,28 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Navigations
+
+<SfDropDownTree TItem="EmployeeData" TValue="string" Placeholder="Select an employee" Width="500px">
+    <DropDownTreeField TItem="EmployeeData" DataSource="Data" ID="Id" Text="Name" HasChildren="HasChild" ParentID="PId" />
+</SfDropDownTree>
+
+@code {
+
+    List<EmployeeData> Data = new List<EmployeeData>
+    {
+        new EmployeeData() {Id="1", Name = "Steven Buchanan", HasChild=true, Expanded=true},
+        new EmployeeData() {Id="2", PId="1", Name = "Laura Callahan", HasChild=true},
+        new EmployeeData() {Id="3", PId="2", Name = "Andrew Fuller", HasChild=true },
+        new EmployeeData() {Id="4", PId="3", Name = "Anne Dodsworth" },
+        new EmployeeData() {Id="5", PId="3", Name = "Lilly" }
+    };
+
+    public class EmployeeData
+    {
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public bool HasChild { get; set; }
+        public bool Expanded { get; set; }
+        public string? PId { get; set; }
+    }
+}
