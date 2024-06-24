@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTPInput_WebApp", "OTPInput_WebApp\OTPInput_WebApp.csproj", "{2B616724-EE16-4C6D-A29E-EC2C4A2FAF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTPInput_WebApp.Client", "OTPInput_WebApp.Client\OTPInput_WebApp.Client.csproj", "{6A558B12-1C82-437A-ABCC-DF24E1A80D8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B616724-EE16-4C6D-A29E-EC2C4A2FAF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B616724-EE16-4C6D-A29E-EC2C4A2FAF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B616724-EE16-4C6D-A29E-EC2C4A2FAF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B616724-EE16-4C6D-A29E-EC2C4A2FAF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A558B12-1C82-437A-ABCC-DF24E1A80D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A558B12-1C82-437A-ABCC-DF24E1A80D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A558B12-1C82-437A-ABCC-DF24E1A80D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A558B12-1C82-437A-ABCC-DF24E1A80D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A40E504-9C75-4D6D-ADA7-E0812B62CA1D}
+	EndGlobalSection
+EndGlobal
