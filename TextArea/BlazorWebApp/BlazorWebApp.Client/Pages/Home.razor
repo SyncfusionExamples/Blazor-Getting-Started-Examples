@@ -1,27 +1,8 @@
 ﻿@page "/"
 
-@using System.ComponentModel.DataAnnotations
-@using Syncfusion.Blazor.Buttons
-
 <div class="form-container">
-    <EditForm Model="@annotation" OnValidSubmit="OnValidSubmit" OnInvalidSubmit="OnInvalidSubmit">
-        <DataAnnotationsValidator></DataAnnotationsValidator>
-
-        <div class="form-element">
-            <SfTextArea @bind-Value="annotation.Comments" ResizeMode="Resize.None" FloatLabelType="FloatLabelType.Always" RowCount="6" ColumnCount="40"
-                        Placeholder="Type your message.." CssClass="e-static-clear" ShowClearButton="true"></SfTextArea>
-            <ValidationMessage For="@(() => annotation.Comments)" />
-        </div>
-
-        <div class="form-element">
-            <SfButton type="submit" IsPrimary="true">Submit</SfButton>
-        </div>
-    </EditForm>
-
-    @if (!string.IsNullOrEmpty(Message))
-    {
-        <p class="success-message">@Message</p>
-    }
+    <SfTextArea  ResizeMode="Resize.None" FloatLabelType="FloatLabelType.Always" RowCount="6" ColumnCount="40"
+                Placeholder="Type your message.." MaxLength="20"></SfTextArea>
 </div>
 <style>
     /* Center the form container */
@@ -31,41 +12,5 @@
         align-items: center;
         margin-top: 5rem;
     }
-
-    /* Style for the form elements to ensure proper spacing */
-    .form-element {
-        margin-bottom: 1rem;
-    }
-
-    /* Style for the success message */
-    .success-message {
-        margin-top: 1rem;
-        color: green; /* Ensures the success message is green */
-    }
 </style>
 
-@code {
-    private string Message = string.Empty;
-    private Annotation annotation = new Annotation();
-
-    private async Task OnValidSubmit()
-    {
-        Message = "Form Submitted Successfully!";
-        await Task.Delay(2000);
-        Message = string.Empty;
-        StateHasChanged();
-    }
-
-    private void OnInvalidSubmit()
-    {
-        Message = string.Empty;
-    }
-
-    public class Annotation
-    {
-        [Required(ErrorMessage = "The comments field is required.")]
-        [MaxLength(250, ErrorMessage = "The comments field should not contain more than 250 characters.")]
-        [MinLength(20, ErrorMessage = "The comments field must contain at least 20 characters.")]
-        public string? Comments { get; set; }
-    }
-}
