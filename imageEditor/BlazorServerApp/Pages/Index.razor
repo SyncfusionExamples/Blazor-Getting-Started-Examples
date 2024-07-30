@@ -1,0 +1,32 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Buttons
+
+<div style="padding-bottom: 15px">
+    <SfButton OnClick="ExportAsync">Export</SfButton>
+</div>
+
+<SfImageEditor @ref="ImageEditor" Height="400">
+    <ImageEditorEvents Created="OpenAsync"></ImageEditorEvents>
+</SfImageEditor>
+
+@code {
+
+    SfImageEditor? ImageEditor;
+
+    private async void OpenAsync()
+    {
+        if (ImageEditor != null)
+        {
+            await ImageEditor.OpenAsync("Nature.jpg");
+        }
+    }
+
+    private async void ExportAsync()
+    {
+        if (ImageEditor != null)
+        {
+            await ImageEditor.ExportAsync("Syncfusion", ImageEditorFileType.PNG);
+        }
+    }
+}
