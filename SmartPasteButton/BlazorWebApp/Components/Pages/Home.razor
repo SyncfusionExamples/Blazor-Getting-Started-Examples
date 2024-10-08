@@ -1,0 +1,161 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.DataForm
+@using System.ComponentModel.DataAnnotations
+@using Syncfusion.Blazor.Inputs
+
+<SfDataForm ID="MyForm" Model="@bugReportDetails" ColumnCount="3">
+      <FormValidator>
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+    </FormValidator>
+    <FormItems>
+        <FormItem Field="@nameof(bugReportDetails.Subject)" ColumnSpan="2" Placeholder="Enter the subject" />
+        <FormItem Field="@nameof(bugReportDetails.Control)" ColumnSpan="1" Placeholder="Enter control name" />
+        <FormItem Field="@nameof(bugReportDetails.Category)" ColumnSpan="1" Placeholder="Enter category" />
+        <FormItem Field="@nameof(bugReportDetails.Type)" ColumnSpan="1" Placeholder="Enter bug type" />
+        <FormItem Field="@nameof(bugReportDetails.Priority)" ColumnSpan="1" Placeholder="Enter priority" />
+        <FormItem Field="@nameof(bugReportDetails.Description)" ColumnSpan="3">
+            <Template>
+                <label class="e-textarea-label">Bug Description</label>
+                <SfTextArea Placeholder="Describe the bug in detail..." />
+            </Template>
+        </FormItem>
+        <FormItem Field="@nameof(bugReportDetails.ProductVersion)" ColumnSpan="1" Placeholder="Enter product version" />
+        <FormItem Field="@nameof(bugReportDetails.OperatingSystem)" ColumnSpan="1" Placeholder="Enter operating system" />
+        <FormItem Field="@nameof(bugReportDetails.Browser)" Placeholder="Enter browser name" />
+        <FormItem Field="@nameof(bugReportDetails.VisualStudio)" ColumnSpan="1" Placeholder="Enter Visual Studio version" />
+        <FormItem Field="@nameof(bugReportDetails.BlazorProjectTemplate)" ColumnSpan="1" Placeholder="Enter Blazor project template name" />
+    </FormItems>
+    <FormButtons>
+        <SfSmartPasteButton IsPrimary="true" Content="Submit Bug Report" IconCss="e-icons e-paste" />
+    </FormButtons>
+</SfDataForm>
+<style>
+    #MyForm {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .e-input-group.e-multi-line-input.e-auto-width {
+        margin-left: 10px;
+    }
+
+    .e-form-label {
+        display: block;
+        font-weight: bold;
+        margin: 10px 10px;
+    }
+
+    .form-item {
+        margin-bottom: 30px;
+    }
+
+    .e-textarea-label {
+        font-size: 14px;
+        margin-bottom: 4px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .form-item input,
+    .form-item select,
+    .description-textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .description-textarea {
+        height: 100px;
+        resize: vertical;
+        margin-left: 0;
+    }
+
+    .form-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .e-data-form .validation-message
+    {
+        margin-left: 10px;
+    }
+
+    .form-item {
+        flex: 1 1 calc(50% - 30px);
+    }
+
+    .form-buttons {
+        text-align: center;
+    }
+
+    .e-form-item-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .e-form-item {
+        margin: 0px 10px;
+    }
+</style>
+
+@code{
+
+    private BugReport bugReportDetails = new BugReport();
+
+    public class BugReport
+    {
+        [Required(ErrorMessage = "Please enter the subject.")]
+        [Display(Name = "Subject")]
+        public string? Subject { get; set; }
+
+        [Required(ErrorMessage = "Please select a priority.")]
+        [Display(Name = "Priority")]
+        public string? Priority { get; set; }
+
+        [Required(ErrorMessage = "Please specify the type.")]
+        [Display(Name = "Type")]
+        public string? Type { get; set; } = "Bug report";
+
+        [Required(ErrorMessage = "Please describe the issue.")]
+        [Display(Name = "Description")]
+        public string? Description { get; set; }
+
+        [Required(ErrorMessage = "Please select a category.")]
+        [Display(Name = "Category")]
+        public string? Category { get; set; }
+
+        [Required(ErrorMessage = "Please specify the control.")]
+        [Display(Name = "Control")]
+        public string? Control { get; set; }
+
+        [Required(ErrorMessage = "Please enter the product version.")]
+        [Display(Name = "Product Version")]
+        public string? ProductVersion { get; set; }
+
+        [Required(ErrorMessage = "Please enter the Visual Studio version.")]
+        [Display(Name = "Visual Studio")]
+        public string? VisualStudio { get; set; }
+
+        [Required(ErrorMessage = "Please enter the operating system.")]
+        [Display(Name = "Operating System")]
+        public string? OperatingSystem { get; set; }
+
+        [Required(ErrorMessage = "Please enter the browser.")]
+        [Display(Name = "Browser")]
+        public string? Browser { get; set; }
+
+        [Required(ErrorMessage = "Please specify the Blazor project template.")]
+        [Display(Name = "Blazor Project Template")]
+        public string? BlazorProjectTemplate { get; set; }
+    }
+}
