@@ -1,0 +1,138 @@
+﻿@page "/"
+
+<div class="col-lg-12" id="default">
+    <div class="content-wrapper">
+        <h6 style="text-align:center;">Role Based Auto Completion</h6>
+        <div class="example-label">Choose a role</div>
+
+        <!-- DropDownList for selecting user roles -->
+        <SfDropDownList Width="90%" PopupHeight="230px" @bind-Value="@selectedRoleId"
+                        DataSource="@roleOptions">
+            <DropDownListEvents TItem="RoleOption" TValue="string" ValueChange="OnRoleChange" />
+            <DropDownListFieldSettings Text="Text" Value="ID" />
+        </SfDropDownList>
+
+        <!-- SmartTextArea for displaying user phrases based on the selected role -->
+        <SfSmartTextArea UserRole="@currentPreset?.UserRole"
+                         UserPhrases="@currentPreset?.UserPhrases" Width="90%"
+                         Placeholder="@currentPreset?.PlaceHolder" RowCount="3"
+                         FloatLabelType="FloatLabelType.Auto">
+        </SfSmartTextArea>
+    </div>
+</div>
+
+<style>
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        max-width: 600px;
+        margin: 30px auto;
+        border: 2px solid rgb(229, 231, 235);
+    }
+
+    .example-label {
+        width: 90%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+</style>
+
+@code {
+    public string selectedRoleId { get; set; } = "Role1"; // Holds the currently selected role ID
+    private Preset? currentPreset; // Holds the preset data for the selected role
+
+    // List of role options to populate the dropdown
+    private List<RoleOption> roleOptions = new List<RoleOption>
+    {
+        new RoleOption { ID = "Role1", Text = "Maintainer of an open-source project replying to GitHub issues" },
+        new RoleOption { ID = "Role2", Text = "Employee communicating with internal team" },
+        new RoleOption { ID = "Role3", Text = "Customer support representative responding to customer queries" },
+        new RoleOption { ID = "Role4", Text = "Sales representative responding to client inquiries" }
+    };
+
+    // Array of presets that hold user roles, phrases, and placeholders
+    private Preset[] presets = new Preset[]
+    {
+        new Preset
+        {
+            UserRole = "Maintainer of an open-source project replying to GitHub issues",
+            UserPhrases = new string[] {
+                "Thank you for contacting us.",
+                "To investigate, we'll need a repro as a public Git repo.",
+                "Could you please post a screenshot of NEED_INFO?",
+                "This sounds like a usage question. This issue tracker is intended for bugs and feature proposals. Unfortunately, we don't have the capacity to answer general usage questions and would recommend StackOverflow for a faster response.",
+                "We don't accept ZIP files as repros."
+            },
+            PlaceHolder = "Start typing Create an issue..."
+        },
+        new Preset
+        {
+            UserRole = "Customer support representative responding to customer queries",
+            UserPhrases = new string[] {
+                "Thank you for reaching out to us.",
+                "Can you please provide your order number?",
+                "We apologize for the inconvenience.",
+                "Our team is looking into this issue and will get back to you shortly.",
+                "For urgent matters, please call our support line."
+            },
+            PlaceHolder = "Enter your reply to the customer query..."
+        },
+        new Preset
+        {
+            UserRole = "Employee communicating with internal team",
+            UserPhrases = new string[] {
+                "Please find the attached report.",
+                "Let's schedule a meeting to discuss this further.",
+                "Can you provide an update on this task?",
+                "I appreciate your prompt response.",
+                "Let's collaborate on this project to ensure timely delivery."
+            },
+            PlaceHolder = "Draft your message for the team..."
+        },
+        new Preset
+        {
+            UserRole = "Sales representative responding to client inquiries",
+            UserPhrases = new string[] {
+                "Thank you for your interest in our product.",
+                "Can I schedule a demo for you?",
+                "Please find the pricing details attached.",
+                "Our team is excited to work with you.",
+                "Let me know if you have any further questions."
+            },
+            PlaceHolder = "Enter your reply to the client's inquiry..."
+        }
+    };
+
+    // Initialize the component and set the default preset
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        currentPreset = presets[0]; // Set the first preset as the default
+    }
+
+    // Event handler for dropdown value change
+    public void OnRoleChange(Syncfusion.Blazor.DropDowns.ChangeEventArgs<string, RoleOption> args)
+    {
+        // Update the current preset based on the selected role
+        currentPreset = presets.Single(p => p.UserRole == args.ItemData.Text);
+    }
+
+    // Class representing each role option in the dropdown
+    public class RoleOption
+    {
+        public string? ID { get; set; } // Role ID
+        public string? Text { get; set; } // Display text for the role
+    }
+
+    // Class representing the preset data for each role
+    public class Preset
+    {
+        public string? UserRole { get; set; } // Role description
+        public string[]? UserPhrases { get; set; } // Array of phrases for the role
+        public string? PlaceHolder { get; set; } // Placeholder text for the SmartTextArea
+    }
+}
