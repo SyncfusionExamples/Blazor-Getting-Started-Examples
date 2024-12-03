@@ -1,5 +1,5 @@
 # Blazor Getting Started Examples
-This repository contains the getting started examples using Syncfusion Blazor Components
+This repository contains the getting started examples using Syncfusion&reg; Blazor Components
 
 ## System requirements
 https://blazor.syncfusion.com/documentation/system-requirements
