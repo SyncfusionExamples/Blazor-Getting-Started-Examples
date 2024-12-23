@@ -5,7 +5,6 @@ using Syncfusion.Blazor;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSyncfusionBlazor();
 
-
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
@@ -27,9 +26,10 @@ else
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles();
+
 app.UseAntiforgery();
 
+app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
