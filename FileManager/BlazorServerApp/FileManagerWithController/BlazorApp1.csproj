@@ -7,20 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Charts" Version="28.2.6" />
     <PackageReference Include="Syncfusion.Blazor.FileManager" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Grid" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Inputs" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.Popups" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.RangeNavigator" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.SfPdfViewer" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.SplitButtons" Version="28.2.6" />
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.Blazor.WordProcessor" Version="28.2.6" />
-    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="28.2.6" />
   </ItemGroup>
 
 </Project>
