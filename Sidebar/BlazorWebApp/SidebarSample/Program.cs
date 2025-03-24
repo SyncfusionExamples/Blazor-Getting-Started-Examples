@@ -1,14 +1,13 @@
-using SidebarSample.Client.Pages;
+﻿using SidebarSample.Client.Pages;
 using SidebarSample.Components;
 using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddSyncfusionBlazor();
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-builder.Services.AddSyncfusionBlazor();
 
 var app = builder.Build();
 
@@ -26,12 +25,13 @@ else
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles();
+
 app.UseAntiforgery();
 
+app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Counter).Assembly);
+    .AddAdditionalAssemblies(typeof(SidebarSample.Client._Imports).Assembly);
 
 app.Run();
