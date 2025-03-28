@@ -19,33 +19,33 @@
     public List<ChipCollection> ChipData = new List<ChipCollection>();
     public class ChipCollection
     {
-        public string text { get; set; }
+        public string? text { get; set; }
         public bool enabled { get; set; }
     }
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        await Task.Delay(2000);
         ChipData.Add(new ChipCollection
-            {
-                text = "Jenifer",
-                enabled = true
-            });
+        {
+            text = "Jenifer",
+            enabled = true
+        });
         ChipData.Add(new ChipCollection
-            {
-                text = "Amenda",
-                enabled = true
-            });
+        {
+            text = "Amenda",
+            enabled = true
+        });
         ChipData.Add(new ChipCollection
-            {
-                text = "Isabella",
-                enabled = true
-            });
+        {
+            text = "Isabella",
+            enabled = true
+        });
         ChipData.Add(new ChipCollection
-            {
-                text = "James",
-                enabled = true
-            });
+        {
+            text = "James",
+            enabled = true
+        });
 
     }
 }
+

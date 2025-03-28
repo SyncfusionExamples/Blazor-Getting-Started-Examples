@@ -1,14 +1,15 @@
-using DropDownSample.Client.Pages;
+﻿using DropDownSample.Client.Pages;
 using DropDownSample.Components;
 using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSyncfusionBlazor();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-builder.Services.AddSyncfusionBlazor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,12 +26,13 @@ else
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles();
+
 app.UseAntiforgery();
 
+app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Counter).Assembly);
+    .AddAdditionalAssemblies(typeof(DropDownSample.Client._Imports).Assembly);
 
 app.Run();
