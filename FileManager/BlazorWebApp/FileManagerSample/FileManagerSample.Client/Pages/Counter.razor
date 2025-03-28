@@ -1,19 +1,10 @@
 ﻿@page "/counter"
 @rendermode InteractiveAuto
 
-<PageTitle>Counter</PageTitle>
-
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-}
+<SfFileManager TValue="FileManagerDirectoryContent">
+    <FileManagerAjaxSettings Url="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/FileOperations"
+                             UploadUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/Upload"
+                             DownloadUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/Download"
+                             GetImageUrl="https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage">
+    </FileManagerAjaxSettings>
+</SfFileManager>
