@@ -1,19 +1,51 @@
 ﻿@page "/counter"
 @rendermode InteractiveAuto
 
-<PageTitle>Counter</PageTitle>
-
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@using Syncfusion.Blazor.Buttons
+@if (ChipData.Count != 0)
+{
+    <SfChip EnableDelete="true">
+        <ChipItems>
+            @foreach (ChipCollection currentData in ChipData)
+            {
+                <ChipItem Text=@currentData.text Enabled=@currentData.enabled></ChipItem>
+            }
+        </ChipItems>
+    </SfChip>
+}
 
 @code {
-    private int currentCount = 0;
 
-    private void IncrementCount()
+    public List<ChipCollection> ChipData = new List<ChipCollection>();
+    public class ChipCollection
     {
-        currentCount++;
+        public string? text { get; set; }
+        public bool enabled { get; set; }
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        ChipData.Add(new ChipCollection
+        {
+            text = "Jenifer",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Amenda",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Isabella",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "James",
+            enabled = true
+        });
+
     }
 }
+
