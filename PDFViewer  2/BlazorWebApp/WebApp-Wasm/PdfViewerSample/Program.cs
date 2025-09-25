@@ -6,12 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-builder.Services.AddServerSideBlazor().AddHubOptions(o => { o.MaximumReceiveMessageSize = 102400000; });
 builder.Services.AddMemoryCache();
+//Add Syncfusion Blazor service to the container
 builder.Services.AddSyncfusionBlazor();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,8 +30,7 @@ app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Counter).Assembly);
+    .AddAdditionalAssemblies(typeof(PdfViewerSample.Client._Imports).Assembly);
 
 app.Run();
