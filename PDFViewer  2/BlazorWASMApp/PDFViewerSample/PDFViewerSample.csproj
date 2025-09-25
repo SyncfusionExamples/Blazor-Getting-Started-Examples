@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.20" PrivateAssets="all" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="3.116.1" />
+    <PackageReference Include="Syncfusion.Blazor.SfPdfViewer" Version="*" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="*" />
+  </ItemGroup>
+
+</Project>
