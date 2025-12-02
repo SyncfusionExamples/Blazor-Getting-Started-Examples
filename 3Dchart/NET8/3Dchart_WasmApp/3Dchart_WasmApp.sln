@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dchart_WasmApp", "3Dchart_WasmApp\3Dchart_WasmApp.csproj", "{AFB5B317-071B-409A-8646-EEF0AF39C0CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dchart_WasmApp.Client", "3Dchart_WasmApp.Client\3Dchart_WasmApp.Client.csproj", "{AF6F2277-5520-4477-B1D2-0EAA630AF1F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFB5B317-071B-409A-8646-EEF0AF39C0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB5B317-071B-409A-8646-EEF0AF39C0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB5B317-071B-409A-8646-EEF0AF39C0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB5B317-071B-409A-8646-EEF0AF39C0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6F2277-5520-4477-B1D2-0EAA630AF1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6F2277-5520-4477-B1D2-0EAA630AF1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6F2277-5520-4477-B1D2-0EAA630AF1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6F2277-5520-4477-B1D2-0EAA630AF1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F94F6BF4-713B-4983-A17A-539A333972E5}
+	EndGlobalSection
+EndGlobal
