@@ -1,0 +1,33 @@
+﻿@page "/"
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Charts
+
+<SfAccumulationChart Title="Olympic Medal Details">
+    <AccumulationChartSeriesCollection>
+        <AccumulationChartSeries DataSource="@MedalDetails" XName="Country" YName="Medals">
+            <AccumulationDataLabelSettings Visible="true" />            
+        </AccumulationChartSeries>
+        <AccumulationChartTooltipSettings Enable="true" />
+        <AccumulationChartLegendSettings Visible="true" />
+    </AccumulationChartSeriesCollection>
+</SfAccumulationChart>
+
+@code{
+    public class ChartData
+    {
+        public string Country { get; set;}
+        public double Medals { get; set;}
+    }
+
+    public List<ChartData> MedalDetails = new List<ChartData>
+    {
+        new ChartData { Country= "United States of America", Medals= 46 },
+        new ChartData { Country= "Great Britain", Medals= 27 },
+        new ChartData { Country= "China", Medals= 26 },
+        new ChartData { Country= "United Kingdom", Medals= 23 },
+        new ChartData { Country= "Australia", Medals= 16 },
+        new ChartData { Country= "India", Medals= 36 },
+        new ChartData { Country= "Nigeria", Medals= 12 },
+        new ChartData { Country= "Brazil", Medals= 20 },
+     };
+}

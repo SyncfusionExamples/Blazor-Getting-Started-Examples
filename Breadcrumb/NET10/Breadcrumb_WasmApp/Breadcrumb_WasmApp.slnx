@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Breadcrumb_WasmApp.Client/Breadcrumb_WasmApp.Client.csproj" />
+  <Project Path="Breadcrumb_WasmApp/Breadcrumb_WasmApp.csproj" />
+</Solution>
