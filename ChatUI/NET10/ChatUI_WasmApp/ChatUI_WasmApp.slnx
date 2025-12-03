@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChatUI_WasmApp.Client/ChatUI_WasmApp.Client.csproj" />
+  <Project Path="ChatUI_WasmApp/ChatUI_WasmApp.csproj" />
+</Solution>

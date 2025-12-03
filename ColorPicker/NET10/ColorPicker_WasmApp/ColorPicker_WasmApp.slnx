@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ColorPicker_WasmApp.Client/ColorPicker_WasmApp.Client.csproj" />
+  <Project Path="ColorPicker_WasmApp/ColorPicker_WasmApp.csproj" />
+</Solution>

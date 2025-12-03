@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_WasmApp", "Calendar_WasmApp\Calendar_WasmApp.csproj", "{B6015354-A371-4B6F-BC6D-B52D8D785243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_WasmApp.Client", "Calendar_WasmApp.Client\Calendar_WasmApp.Client.csproj", "{301405EF-AEF2-4090-8AD7-33F2438072E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6015354-A371-4B6F-BC6D-B52D8D785243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6015354-A371-4B6F-BC6D-B52D8D785243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6015354-A371-4B6F-BC6D-B52D8D785243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6015354-A371-4B6F-BC6D-B52D8D785243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301405EF-AEF2-4090-8AD7-33F2438072E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301405EF-AEF2-4090-8AD7-33F2438072E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301405EF-AEF2-4090-8AD7-33F2438072E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301405EF-AEF2-4090-8AD7-33F2438072E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58347101-8627-421C-8C28-3AEF67F46E70}
+	EndGlobalSection
+EndGlobal
