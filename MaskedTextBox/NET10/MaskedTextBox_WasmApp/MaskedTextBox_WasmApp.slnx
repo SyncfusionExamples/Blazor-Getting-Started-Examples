@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MaskedTextBox_WasmApp.Client/MaskedTextBox_WasmApp.Client.csproj" />
+  <Project Path="MaskedTextBox_WasmApp/MaskedTextBox_WasmApp.csproj" />
+</Solution>

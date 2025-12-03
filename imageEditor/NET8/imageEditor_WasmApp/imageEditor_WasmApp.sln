@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageEditor_WasmApp", "imageEditor_WasmApp\imageEditor_WasmApp.csproj", "{80CFC2DF-0790-492D-BB5D-935F4680724C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageEditor_WasmApp.Client", "imageEditor_WasmApp.Client\imageEditor_WasmApp.Client.csproj", "{6D72434B-B61C-4825-9EE2-02419E5D5268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CFC2DF-0790-492D-BB5D-935F4680724C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CFC2DF-0790-492D-BB5D-935F4680724C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CFC2DF-0790-492D-BB5D-935F4680724C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CFC2DF-0790-492D-BB5D-935F4680724C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D72434B-B61C-4825-9EE2-02419E5D5268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D72434B-B61C-4825-9EE2-02419E5D5268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D72434B-B61C-4825-9EE2-02419E5D5268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D72434B-B61C-4825-9EE2-02419E5D5268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09D58318-A6FD-4FAF-8113-C5618816FF49}
+	EndGlobalSection
+EndGlobal

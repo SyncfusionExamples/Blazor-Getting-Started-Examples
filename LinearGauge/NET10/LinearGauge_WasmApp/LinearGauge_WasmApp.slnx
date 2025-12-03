@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LinearGauge_WasmApp.Client/LinearGauge_WasmApp.Client.csproj" />
+  <Project Path="LinearGauge_WasmApp/LinearGauge_WasmApp.csproj" />
+</Solution>

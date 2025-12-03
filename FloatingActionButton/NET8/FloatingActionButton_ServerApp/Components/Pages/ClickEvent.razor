@@ -1,0 +1,23 @@
+﻿@page "/event-click"
+
+@*Floating Action Button sample with 'Target' to position a FAB based on the target.*@
+
+<div id="target" style="min-height:200px; position:relative; width:300px; border:1px solid;">
+    <SfFab Target="#target" IconCss="e-icons e-plus" OnClick="EventClick"></SfFab>
+</div>
+
+
+@*Floating Action Button sample without 'Target' to position a FAB based on the target.*@
+
+<SfFab IconCss="e-icons e-plus" OnClick="EventClick"></SfFab>
+
+<label>Event log</label>
+<div style="border:1px solid;min-height:20px;"> @((MarkupString)log)</div>
+@code{
+    private string log = "";
+    public void EventClick()
+    {
+        // Here, you can call your desired action.
+        log = log + "Fab Clicked.<br/>";
+    }
+}

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ListBox_WasmApp.Client/ListBox_WasmApp.Client.csproj" />
+  <Project Path="ListBox_WasmApp/ListBox_WasmApp.csproj" />
+</Solution>
