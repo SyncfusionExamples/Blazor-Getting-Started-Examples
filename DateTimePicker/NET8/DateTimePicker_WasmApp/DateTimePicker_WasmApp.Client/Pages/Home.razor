@@ -1,0 +1,9 @@
+﻿@page "/"
+
+<SfDateTimePicker TValue="DateTime?" Value="@DateValue" Min="@MinDate" Max="@MaxDate"></SfDateTimePicker>
+
+@code{
+    public DateTime? DateValue {get;set;} = new DateTime(DateTime.Now.Year,DateTime.Now.Month,10);
+    public DateTime MinDate {get;set;} = new DateTime(DateTime.Now.Year,DateTime.Now.Month,05);
+    public DateTime MaxDate {get;set;} = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 27);
+}

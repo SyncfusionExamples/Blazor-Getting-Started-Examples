@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid_WasmApp", "DataGrid_WasmApp\DataGrid_WasmApp.csproj", "{A24C2A79-9A94-42C3-989C-618E1062B3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid_WasmApp.Client", "DataGrid_WasmApp.Client\DataGrid_WasmApp.Client.csproj", "{4B69B23F-1B88-4118-B448-0F6564A42BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24C2A79-9A94-42C3-989C-618E1062B3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24C2A79-9A94-42C3-989C-618E1062B3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24C2A79-9A94-42C3-989C-618E1062B3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24C2A79-9A94-42C3-989C-618E1062B3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B69B23F-1B88-4118-B448-0F6564A42BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B69B23F-1B88-4118-B448-0F6564A42BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B69B23F-1B88-4118-B448-0F6564A42BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B69B23F-1B88-4118-B448-0F6564A42BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {633FA7BB-74C0-4EF3-B632-BED6C2BECA83}
+	EndGlobalSection
+EndGlobal

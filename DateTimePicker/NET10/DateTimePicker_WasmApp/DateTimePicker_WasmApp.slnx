@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DateTimePicker_WasmApp.Client/DateTimePicker_WasmApp.Client.csproj" />
+  <Project Path="DateTimePicker_WasmApp/DateTimePicker_WasmApp.csproj" />
+</Solution>
