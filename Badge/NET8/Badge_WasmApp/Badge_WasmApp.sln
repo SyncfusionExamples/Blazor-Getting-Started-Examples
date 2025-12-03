@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_WasmApp", "Badge_WasmApp\Badge_WasmApp.csproj", "{8BC07E08-97E1-4035-B94C-FE1D54DCF6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_WasmApp.Client", "Badge_WasmApp.Client\Badge_WasmApp.Client.csproj", "{B6E0A403-7A90-4994-A4DA-6513EC2C0AC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC07E08-97E1-4035-B94C-FE1D54DCF6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC07E08-97E1-4035-B94C-FE1D54DCF6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC07E08-97E1-4035-B94C-FE1D54DCF6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC07E08-97E1-4035-B94C-FE1D54DCF6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E0A403-7A90-4994-A4DA-6513EC2C0AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E0A403-7A90-4994-A4DA-6513EC2C0AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E0A403-7A90-4994-A4DA-6513EC2C0AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E0A403-7A90-4994-A4DA-6513EC2C0AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {511AA3AC-33F9-4D63-BE41-7055E58F08BF}
+	EndGlobalSection
+EndGlobal
