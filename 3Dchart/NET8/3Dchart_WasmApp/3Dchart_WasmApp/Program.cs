@@ -8,6 +8,7 @@ builder.Services.AddSyncfusionBlazor();
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
+builder.Services.AddSyncfusionBlazor();
 
 var app = builder.Build();
 
