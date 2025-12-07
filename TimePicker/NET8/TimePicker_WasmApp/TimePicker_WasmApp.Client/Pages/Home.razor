@@ -1,0 +1,7 @@
+﻿@page "/"
+
+<SfTimePicker TValue="DateTime?" Value="@TimeValue" Step=60 Format="HH:mm"></SfTimePicker>
+
+@code {
+    public DateTime TimeValue { get; set; } = DateTime.Now;
+}

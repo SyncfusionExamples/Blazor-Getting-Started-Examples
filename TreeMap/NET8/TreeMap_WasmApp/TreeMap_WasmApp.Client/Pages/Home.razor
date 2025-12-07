@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<SfTreeMap DataSource="GrowthReport"
+            WeightValuePath="GDP"
+            TValue="Country">
+    <TreeMapTitleSettings Text="Top 10 countries by GDP Nominal - 2015"></TreeMapTitleSettings>
+    <TreeMapLeafItemSettings LabelPath="Name" Fill="lightgray"></TreeMapLeafItemSettings>
+</SfTreeMap>
+
+@code {
+    public class Country
+    {
+        public string Name { get; set; }
+        public double GDP { get; set; }
+    }
+    public List<Country> GrowthReport = new List<Country> {
+        new Country  {Name="United States", GDP=17946 },
+        new Country  {Name="China", GDP=10866 },
+        new Country  {Name="Japan", GDP=4123 },
+        new Country  {Name="Germany", GDP=3355 },
+        new Country  {Name="United Kingdom", GDP=2848 },
+        new Country  {Name="France", GDP=2421 },
+        new Country  {Name="India", GDP=2073 },
+        new Country  {Name="Italy", GDP=1814 },
+        new Country  {Name="Brazil", GDP=1774 },
+        new Country  {Name="Canada", GDP=1550 }
+    };
+}

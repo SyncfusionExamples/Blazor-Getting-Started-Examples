@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TreeView_WasmApp.Client/TreeView_WasmApp.Client.csproj" />
+  <Project Path="TreeView_WasmApp/TreeView_WasmApp.csproj" />
+</Solution>
