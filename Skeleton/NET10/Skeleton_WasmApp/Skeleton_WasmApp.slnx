@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Skeleton_WasmApp.Client/Skeleton_WasmApp.Client.csproj" />
+  <Project Path="Skeleton_WasmApp/Skeleton_WasmApp.csproj" />
+</Solution>

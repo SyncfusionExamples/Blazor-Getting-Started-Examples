@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Sparkline_WasmApp.Client/Sparkline_WasmApp.Client.csproj" />
+  <Project Path="Sparkline_WasmApp/Sparkline_WasmApp.csproj" />
+</Solution>

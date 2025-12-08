@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OTPInput_WasmApp.Client/OTPInput_WasmApp.Client.csproj" />
+  <Project Path="OTPInput_WasmApp/OTPInput_WasmApp.csproj" />
+</Solution>

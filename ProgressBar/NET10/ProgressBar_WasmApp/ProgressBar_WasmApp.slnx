@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ProgressBar_WasmApp.Client/ProgressBar_WasmApp.Client.csproj" />
+  <Project Path="ProgressBar_WasmApp/ProgressBar_WasmApp.csproj" />
+</Solution>

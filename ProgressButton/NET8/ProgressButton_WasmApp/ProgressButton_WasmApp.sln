@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressButton_WasmApp", "ProgressButton_WasmApp\ProgressButton_WasmApp.csproj", "{A0AE8C42-4A3C-4A5F-8581-19ED88C14884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressButton_WasmApp.Client", "ProgressButton_WasmApp.Client\ProgressButton_WasmApp.Client.csproj", "{01C5C14C-E0B4-493A-B0B3-9A2C977BD303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0AE8C42-4A3C-4A5F-8581-19ED88C14884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AE8C42-4A3C-4A5F-8581-19ED88C14884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AE8C42-4A3C-4A5F-8581-19ED88C14884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AE8C42-4A3C-4A5F-8581-19ED88C14884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C5C14C-E0B4-493A-B0B3-9A2C977BD303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C5C14C-E0B4-493A-B0B3-9A2C977BD303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C5C14C-E0B4-493A-B0B3-9A2C977BD303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C5C14C-E0B4-493A-B0B3-9A2C977BD303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BF3AC3-8882-43B4-8742-1FD1CD5D4932}
+	EndGlobalSection
+EndGlobal

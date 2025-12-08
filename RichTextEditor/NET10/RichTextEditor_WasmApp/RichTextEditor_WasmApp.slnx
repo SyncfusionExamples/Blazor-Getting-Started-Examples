@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RichTextEditor_WasmApp.Client/RichTextEditor_WasmApp.Client.csproj" />
+  <Project Path="RichTextEditor_WasmApp/RichTextEditor_WasmApp.csproj" />
+</Solution>
