@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Pager_WebApp.Client/Pager_WebApp.Client.csproj" />
+  <Project Path="Pager_WebApp/Pager_WebApp.csproj" />
+</Solution>

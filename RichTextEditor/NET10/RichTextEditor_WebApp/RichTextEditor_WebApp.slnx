@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RichTextEditor_WebApp.Client/RichTextEditor_WebApp.Client.csproj" />
+  <Project Path="RichTextEditor_WebApp/RichTextEditor_WebApp.csproj" />
+</Solution>

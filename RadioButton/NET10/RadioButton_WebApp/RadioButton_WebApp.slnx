@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RadioButton_WebApp.Client/RadioButton_WebApp.Client.csproj" />
+  <Project Path="RadioButton_WebApp/RadioButton_WebApp.csproj" />
+</Solution>

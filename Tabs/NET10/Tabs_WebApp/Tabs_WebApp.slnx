@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Tabs_WebApp.Client/Tabs_WebApp.Client.csproj" />
+  <Project Path="Tabs_WebApp/Tabs_WebApp.csproj" />
+</Solution>

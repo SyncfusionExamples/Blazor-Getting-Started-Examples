@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Timeline_WebApp.Client/Timeline_WebApp.Client.csproj" />
+  <Project Path="Timeline_WebApp/Timeline_WebApp.csproj" />
+</Solution>

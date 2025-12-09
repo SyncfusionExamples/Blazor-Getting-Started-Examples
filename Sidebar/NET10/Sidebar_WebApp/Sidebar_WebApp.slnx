@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Sidebar_WebApp.Client/Sidebar_WebApp.Client.csproj" />
+  <Project Path="Sidebar_WebApp/Sidebar_WebApp.csproj" />
+</Solution>

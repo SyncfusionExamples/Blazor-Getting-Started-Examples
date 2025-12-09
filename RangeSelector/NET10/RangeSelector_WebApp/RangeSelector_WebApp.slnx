@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RangeSelector_WebApp.Client/RangeSelector_WebApp.Client.csproj" />
+  <Project Path="RangeSelector_WebApp/RangeSelector_WebApp.csproj" />
+</Solution>

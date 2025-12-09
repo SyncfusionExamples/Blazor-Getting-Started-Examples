@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SmithChart_WebApp.Client/SmithChart_WebApp.Client.csproj" />
+  <Project Path="SmithChart_WebApp/SmithChart_WebApp.csproj" />
+</Solution>

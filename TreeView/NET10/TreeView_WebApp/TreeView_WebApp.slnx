@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TreeView_WebApp.Client/TreeView_WebApp.Client.csproj" />
+  <Project Path="TreeView_WebApp/TreeView_WebApp.csproj" />
+</Solution>

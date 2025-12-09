@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Skeleton_WebApp.Client/Skeleton_WebApp.Client.csproj" />
+  <Project Path="Skeleton_WebApp/Skeleton_WebApp.csproj" />
+</Solution>

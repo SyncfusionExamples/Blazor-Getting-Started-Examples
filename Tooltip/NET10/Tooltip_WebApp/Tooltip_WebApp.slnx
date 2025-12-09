@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Tooltip_WebApp.Client/Tooltip_WebApp.Client.csproj" />
+  <Project Path="Tooltip_WebApp/Tooltip_WebApp.csproj" />
+</Solution>

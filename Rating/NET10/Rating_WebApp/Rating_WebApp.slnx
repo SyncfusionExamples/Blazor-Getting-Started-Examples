@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Rating_WebApp.Client/Rating_WebApp.Client.csproj" />
+  <Project Path="Rating_WebApp/Rating_WebApp.csproj" />
+</Solution>
