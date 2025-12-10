@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Spinner_WebApp.Client/Spinner_WebApp.Client.csproj" />
+  <Project Path="Spinner_WebApp/Spinner_WebApp.csproj" />
+</Solution>

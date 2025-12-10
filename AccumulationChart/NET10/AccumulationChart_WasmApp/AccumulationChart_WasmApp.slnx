@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AccumulationChart_WasmApp.Client/AccumulationChart_WasmApp.Client.csproj" />
+  <Project Path="AccumulationChart_WasmApp/AccumulationChart_WasmApp.csproj" />
+</Solution>

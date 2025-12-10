@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ProgressButton_WebApp.Client/ProgressButton_WebApp.Client.csproj" />
+  <Project Path="ProgressButton_WebApp/ProgressButton_WebApp.csproj" />
+</Solution>

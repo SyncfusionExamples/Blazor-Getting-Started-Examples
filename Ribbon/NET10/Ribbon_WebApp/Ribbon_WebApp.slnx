@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Ribbon_WebApp.Client/Ribbon_WebApp.Client.csproj" />
+  <Project Path="Ribbon_WebApp/Ribbon_WebApp.csproj" />
+</Solution>

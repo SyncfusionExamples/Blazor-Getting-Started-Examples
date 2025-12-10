@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpload_WasmApp", "FileUpload_WasmApp\FileUpload_WasmApp.csproj", "{12A26FB0-A456-4CF3-A611-2D0C305F1AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpload_WasmApp.Client", "FileUpload_WasmApp.Client\FileUpload_WasmApp.Client.csproj", "{1962FE68-23A8-4FF3-8989-FDCCDDFFBBF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12A26FB0-A456-4CF3-A611-2D0C305F1AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A26FB0-A456-4CF3-A611-2D0C305F1AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A26FB0-A456-4CF3-A611-2D0C305F1AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A26FB0-A456-4CF3-A611-2D0C305F1AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1962FE68-23A8-4FF3-8989-FDCCDDFFBBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1962FE68-23A8-4FF3-8989-FDCCDDFFBBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1962FE68-23A8-4FF3-8989-FDCCDDFFBBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1962FE68-23A8-4FF3-8989-FDCCDDFFBBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D940A17F-A85C-41AB-935B-76A4263F618F}
+	EndGlobalSection
+EndGlobal

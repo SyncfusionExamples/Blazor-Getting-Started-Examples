@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Avatar_WasmApp.Client/Avatar_WasmApp.Client.csproj" />
+  <Project Path="Avatar_WasmApp/Avatar_WasmApp.csproj" />
+</Solution>

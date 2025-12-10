@@ -1,0 +1,55 @@
+@page "/"
+
+<SfSankey BackgroundColor="#0b1320" Title="Global Coffee Production and Consumption Flow"
+          SubTitle="Global Coffee Journey" Nodes=@Nodes Links=@Links>
+    <SankeyTitleStyle FontStyle="italic" FontWeight="600" Color="white" />
+    <SankeySubtitleStyle FontSize="12px" FontStyle="italic" FontWeight="400" Color="white" />
+    <SankeyNodeSettings Color="#1c3f60" Width="10" Padding="20" />
+    <SankeyLinkSettings Color="#afc1d0" Opacity="0.2" />
+    <SankeyLabelSettings Color="#FFFFFF" FontWeight="400" />
+    <SankeyLegendSettings Visible="false" />
+</SfSankey>
+
+@code {
+
+    public List<SankeyDataNode> Nodes = new List<SankeyDataNode>();
+
+    public List<SankeyDataLink> Links = new List<SankeyDataLink>();
+
+    protected override void OnInitialized()
+    {
+        Nodes = new List<SankeyDataNode>()
+        {
+            new SankeyDataNode() { Id = "Coffee Production" },
+            new SankeyDataNode() { Id = "Arabica" },
+            new SankeyDataNode() { Id = "Robusta" },
+            new SankeyDataNode() { Id = "Roasted Coffee" },
+            new SankeyDataNode() { Id = "Instant Coffee" },
+            new SankeyDataNode() { Id = "Green Coffee" },
+            new SankeyDataNode() { Id = "North America" },
+            new SankeyDataNode() { Id = "Europe" },
+            new SankeyDataNode() { Id = "Asia Pacific" },
+        };
+        Links = new List<SankeyDataLink>()
+        {
+            new SankeyDataLink() { SourceId = "Coffee Production", TargetId = "Arabica", Value = 95 },
+            new SankeyDataLink() { SourceId = "Coffee Production", TargetId = "Robusta", Value = 65 },
+            new SankeyDataLink() { SourceId = "Arabica", TargetId = "Roasted Coffee", Value = 60 },
+            new SankeyDataLink() { SourceId = "Arabica", TargetId = "Instant Coffee", Value = 20 },
+            new SankeyDataLink() { SourceId = "Arabica", TargetId = "Green Coffee", Value = 15 },
+            new SankeyDataLink() { SourceId = "Robusta", TargetId = "Roasted Coffee", Value = 30 },
+            new SankeyDataLink() { SourceId = "Robusta", TargetId = "Instant Coffee", Value = 25 },
+            new SankeyDataLink() { SourceId = "Robusta", TargetId = "Green Coffee", Value = 10 },
+            new SankeyDataLink() { SourceId = "Roasted Coffee", TargetId = "North America", Value = 35 },
+            new SankeyDataLink() { SourceId = "Roasted Coffee", TargetId = "Europe", Value = 30 },
+            new SankeyDataLink() { SourceId = "Roasted Coffee", TargetId = "Asia Pacific", Value = 25 },
+            new SankeyDataLink() { SourceId = "Instant Coffee", TargetId = "North America", Value = 15 },
+            new SankeyDataLink() { SourceId = "Instant Coffee", TargetId = "Europe", Value = 15 },
+            new SankeyDataLink() { SourceId = "Instant Coffee", TargetId = "Asia Pacific", Value = 15 },
+            new SankeyDataLink() { SourceId = "Green Coffee", TargetId = "North America", Value = 10 },
+            new SankeyDataLink() { SourceId = "Green Coffee", TargetId = "Europe", Value = 8 },
+            new SankeyDataLink() { SourceId = "Green Coffee", TargetId = "Asia Pacific", Value = 7 },
+        };
+        base.OnInitialized();
+    }
+}

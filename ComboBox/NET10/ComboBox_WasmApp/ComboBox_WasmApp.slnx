@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ComboBox_WasmApp.Client/ComboBox_WasmApp.Client.csproj" />
+  <Project Path="ComboBox_WasmApp/ComboBox_WasmApp.csproj" />
+</Solution>

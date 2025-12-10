@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar_WasmApp", "ProgressBar_WasmApp\ProgressBar_WasmApp.csproj", "{244EA066-C9D5-42B1-B35D-6F72AC20AD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar_WasmApp.Client", "ProgressBar_WasmApp.Client\ProgressBar_WasmApp.Client.csproj", "{47769EA7-1470-4F6A-B869-D99CE4206227}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244EA066-C9D5-42B1-B35D-6F72AC20AD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244EA066-C9D5-42B1-B35D-6F72AC20AD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244EA066-C9D5-42B1-B35D-6F72AC20AD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244EA066-C9D5-42B1-B35D-6F72AC20AD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47769EA7-1470-4F6A-B869-D99CE4206227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47769EA7-1470-4F6A-B869-D99CE4206227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47769EA7-1470-4F6A-B869-D99CE4206227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47769EA7-1470-4F6A-B869-D99CE4206227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54CAE5DE-DA84-481E-8C6F-0177FA1B1F68}
+	EndGlobalSection
+EndGlobal

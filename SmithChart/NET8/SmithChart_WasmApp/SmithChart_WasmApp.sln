@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmithChart_WasmApp", "SmithChart_WasmApp\SmithChart_WasmApp.csproj", "{8C2CA861-E3D0-4B2E-9B65-9BBBAAC9BA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmithChart_WasmApp.Client", "SmithChart_WasmApp.Client\SmithChart_WasmApp.Client.csproj", "{B5EE55BA-782D-4AA0-890C-6AAC6CE8139F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C2CA861-E3D0-4B2E-9B65-9BBBAAC9BA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2CA861-E3D0-4B2E-9B65-9BBBAAC9BA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2CA861-E3D0-4B2E-9B65-9BBBAAC9BA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CA861-E3D0-4B2E-9B65-9BBBAAC9BA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EE55BA-782D-4AA0-890C-6AAC6CE8139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EE55BA-782D-4AA0-890C-6AAC6CE8139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EE55BA-782D-4AA0-890C-6AAC6CE8139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EE55BA-782D-4AA0-890C-6AAC6CE8139F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03AE3138-2DA9-43A3-ACD0-4A590D0B1E75}
+	EndGlobalSection
+EndGlobal

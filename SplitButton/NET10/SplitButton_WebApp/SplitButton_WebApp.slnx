@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SplitButton_WebApp.Client/SplitButton_WebApp.Client.csproj" />
+  <Project Path="SplitButton_WebApp/SplitButton_WebApp.csproj" />
+</Solution>

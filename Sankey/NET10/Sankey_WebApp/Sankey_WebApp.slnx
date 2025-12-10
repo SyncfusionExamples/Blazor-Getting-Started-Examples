@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Sankey_WebApp.Client/Sankey_WebApp.Client.csproj" />
+  <Project Path="Sankey_WebApp/Sankey_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeMap_WasmApp", "TreeMap_WasmApp\TreeMap_WasmApp.csproj", "{3954FE20-4495-4096-A05A-3ECB4705440C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeMap_WasmApp.Client", "TreeMap_WasmApp.Client\TreeMap_WasmApp.Client.csproj", "{0E63C6BF-E677-4ABE-A94A-82DD6CE168FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3954FE20-4495-4096-A05A-3ECB4705440C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3954FE20-4495-4096-A05A-3ECB4705440C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3954FE20-4495-4096-A05A-3ECB4705440C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3954FE20-4495-4096-A05A-3ECB4705440C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E63C6BF-E677-4ABE-A94A-82DD6CE168FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E63C6BF-E677-4ABE-A94A-82DD6CE168FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E63C6BF-E677-4ABE-A94A-82DD6CE168FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E63C6BF-E677-4ABE-A94A-82DD6CE168FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE080450-AD68-49ED-9670-45D8DF20C862}
+	EndGlobalSection
+EndGlobal

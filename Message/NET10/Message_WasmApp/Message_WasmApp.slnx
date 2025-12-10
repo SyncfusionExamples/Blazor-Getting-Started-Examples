@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Message_WasmApp.Client/Message_WasmApp.Client.csproj" />
+  <Project Path="Message_WasmApp/Message_WasmApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockChart_WebApp.Client/StockChart_WebApp.Client.csproj" />
+  <Project Path="StockChart_WebApp/StockChart_WebApp.csproj" />
+</Solution>

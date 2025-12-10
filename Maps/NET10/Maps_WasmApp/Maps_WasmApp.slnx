@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Maps_WasmApp.Client/Maps_WasmApp.Client.csproj" />
+  <Project Path="Maps_WasmApp/Maps_WasmApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TextBox_WasmApp.Client/TextBox_WasmApp.Client.csproj" />
+  <Project Path="TextBox_WasmApp/TextBox_WasmApp.csproj" />
+</Solution>

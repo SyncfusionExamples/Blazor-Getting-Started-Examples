@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Toast_WasmApp.Client/Toast_WasmApp.Client.csproj" />
+  <Project Path="Toast_WasmApp/Toast_WasmApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TimePicker_WasmApp.Client/TimePicker_WasmApp.Client.csproj" />
+  <Project Path="TimePicker_WasmApp/TimePicker_WasmApp.csproj" />
+</Solution>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepper_WasmApp", "Stepper_WasmApp\Stepper_WasmApp.csproj", "{F0502913-AC92-4656-8DE2-C7F4667C5A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stepper_WasmApp.Client", "Stepper_WasmApp.Client\Stepper_WasmApp.Client.csproj", "{A182CA23-BC52-48A1-956C-22B96B9A7483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0502913-AC92-4656-8DE2-C7F4667C5A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0502913-AC92-4656-8DE2-C7F4667C5A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0502913-AC92-4656-8DE2-C7F4667C5A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0502913-AC92-4656-8DE2-C7F4667C5A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A182CA23-BC52-48A1-956C-22B96B9A7483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A182CA23-BC52-48A1-956C-22B96B9A7483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A182CA23-BC52-48A1-956C-22B96B9A7483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A182CA23-BC52-48A1-956C-22B96B9A7483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCEC2D27-2E18-4E7E-BB5A-3F7678D0DEFA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TimePicker_WebApp.Client/TimePicker_WebApp.Client.csproj" />
+  <Project Path="TimePicker_WebApp/TimePicker_WebApp.csproj" />
+</Solution>

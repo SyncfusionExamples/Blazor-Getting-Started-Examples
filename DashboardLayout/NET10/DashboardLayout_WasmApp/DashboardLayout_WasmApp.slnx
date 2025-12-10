@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DashboardLayout_WasmApp.Client/DashboardLayout_WasmApp.Client.csproj" />
+  <Project Path="DashboardLayout_WasmApp/DashboardLayout_WasmApp.csproj" />
+</Solution>

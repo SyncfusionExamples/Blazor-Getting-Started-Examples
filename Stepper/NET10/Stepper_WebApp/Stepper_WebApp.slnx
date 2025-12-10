@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Stepper_WebApp.Client/Stepper_WebApp.Client.csproj" />
+  <Project Path="Stepper_WebApp/Stepper_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Carousel_WasmApp.Client/Carousel_WasmApp.Client.csproj" />
+  <Project Path="Carousel_WasmApp/Carousel_WasmApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Tabs_WasmApp.Client/Tabs_WasmApp.Client.csproj" />
+  <Project Path="Tabs_WasmApp/Tabs_WasmApp.csproj" />
+</Solution>

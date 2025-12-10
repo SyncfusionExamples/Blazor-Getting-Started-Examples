@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TreeGrid_WebApp.Client/TreeGrid_WebApp.Client.csproj" />
+  <Project Path="TreeGrid_WebApp/TreeGrid_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PivotTable_WebApp.Client/PivotTable_WebApp.Client.csproj" />
+  <Project Path="PivotTable_WebApp/PivotTable_WebApp.csproj" />
+</Solution>

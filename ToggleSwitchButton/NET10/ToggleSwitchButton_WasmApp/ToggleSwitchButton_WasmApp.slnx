@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ToggleSwitchButton_WasmApp.Client/ToggleSwitchButton_WasmApp.Client.csproj" />
+  <Project Path="ToggleSwitchButton_WasmApp/ToggleSwitchButton_WasmApp.csproj" />
+</Solution>

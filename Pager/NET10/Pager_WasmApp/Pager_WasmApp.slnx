@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Pager_WasmApp.Client/Pager_WasmApp.Client.csproj" />
+  <Project Path="Pager_WasmApp/Pager_WasmApp.csproj" />
+</Solution>

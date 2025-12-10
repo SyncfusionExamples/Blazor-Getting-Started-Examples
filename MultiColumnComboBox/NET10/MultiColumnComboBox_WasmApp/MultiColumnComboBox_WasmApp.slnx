@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MultiColumnComboBox_WasmApp.Client/MultiColumnComboBox_WasmApp.Client.csproj" />
+  <Project Path="MultiColumnComboBox_WasmApp/MultiColumnComboBox_WasmApp.csproj" />
+</Solution>

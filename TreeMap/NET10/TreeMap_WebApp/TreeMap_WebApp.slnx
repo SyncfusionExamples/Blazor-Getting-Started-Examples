@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TreeMap_WebApp.Client/TreeMap_WebApp.Client.csproj" />
+  <Project Path="TreeMap_WebApp/TreeMap_WebApp.csproj" />
+</Solution>

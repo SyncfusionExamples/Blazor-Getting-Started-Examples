@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GanttChart_WasmApp.Client/GanttChart_WasmApp.Client.csproj" />
+  <Project Path="GanttChart_WasmApp/GanttChart_WasmApp.csproj" />
+</Solution>

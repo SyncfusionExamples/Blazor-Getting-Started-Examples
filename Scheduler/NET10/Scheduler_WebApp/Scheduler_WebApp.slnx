@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Scheduler_WebApp.Client/Scheduler_WebApp.Client.csproj" />
+  <Project Path="Scheduler_WebApp/Scheduler_WebApp.csproj" />
+</Solution>

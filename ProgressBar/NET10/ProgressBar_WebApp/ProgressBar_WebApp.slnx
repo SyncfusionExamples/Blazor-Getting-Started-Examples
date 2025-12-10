@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ProgressBar_WebApp.Client/ProgressBar_WebApp.Client.csproj" />
+  <Project Path="ProgressBar_WebApp/ProgressBar_WebApp.csproj" />
+</Solution>

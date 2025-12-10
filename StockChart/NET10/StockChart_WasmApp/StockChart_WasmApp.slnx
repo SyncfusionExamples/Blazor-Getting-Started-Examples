@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockChart_WasmApp.Client/StockChart_WasmApp.Client.csproj" />
+  <Project Path="StockChart_WasmApp/StockChart_WasmApp.csproj" />
+</Solution>

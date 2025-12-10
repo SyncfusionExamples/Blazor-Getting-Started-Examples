@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Spinner_WasmApp.Client/Spinner_WasmApp.Client.csproj" />
+  <Project Path="Spinner_WasmApp/Spinner_WasmApp.csproj" />
+</Solution>

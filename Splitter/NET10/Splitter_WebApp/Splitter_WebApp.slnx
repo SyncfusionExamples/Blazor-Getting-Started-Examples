@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Splitter_WebApp.Client/Splitter_WebApp.Client.csproj" />
+  <Project Path="Splitter_WebApp/Splitter_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RangeSlider_WebApp.Client/RangeSlider_WebApp.Client.csproj" />
+  <Project Path="RangeSlider_WebApp/RangeSlider_WebApp.csproj" />
+</Solution>

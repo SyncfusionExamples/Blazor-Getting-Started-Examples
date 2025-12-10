@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="imageEditor_WasmApp.Client/imageEditor_WasmApp.Client.csproj" />
+  <Project Path="imageEditor_WasmApp/imageEditor_WasmApp.csproj" />
+</Solution>

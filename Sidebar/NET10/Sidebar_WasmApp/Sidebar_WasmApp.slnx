@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Sidebar_WasmApp.Client/Sidebar_WasmApp.Client.csproj" />
+  <Project Path="Sidebar_WasmApp/Sidebar_WasmApp.csproj" />
+</Solution>

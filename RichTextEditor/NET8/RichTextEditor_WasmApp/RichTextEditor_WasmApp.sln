@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextEditor_WasmApp", "RichTextEditor_WasmApp\RichTextEditor_WasmApp.csproj", "{2DF840B5-DB2E-403C-9597-7054D8CF06F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextEditor_WasmApp.Client", "RichTextEditor_WasmApp.Client\RichTextEditor_WasmApp.Client.csproj", "{CDAF3169-31A9-4CB9-A727-4BBF6D028A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF840B5-DB2E-403C-9597-7054D8CF06F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF840B5-DB2E-403C-9597-7054D8CF06F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF840B5-DB2E-403C-9597-7054D8CF06F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF840B5-DB2E-403C-9597-7054D8CF06F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAF3169-31A9-4CB9-A727-4BBF6D028A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAF3169-31A9-4CB9-A727-4BBF6D028A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAF3169-31A9-4CB9-A727-4BBF6D028A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAF3169-31A9-4CB9-A727-4BBF6D028A40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91632D3-4461-4045-A5A2-D74FBFACC0E0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SpeedDial_WasmApp.Client/SpeedDial_WasmApp.Client.csproj" />
+  <Project Path="SpeedDial_WasmApp/SpeedDial_WasmApp.csproj" />
+</Solution>

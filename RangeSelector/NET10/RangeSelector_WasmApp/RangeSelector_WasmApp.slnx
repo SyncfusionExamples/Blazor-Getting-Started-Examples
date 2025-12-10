@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RangeSelector_WasmApp.Client/RangeSelector_WasmApp.Client.csproj" />
+  <Project Path="RangeSelector_WasmApp/RangeSelector_WasmApp.csproj" />
+</Solution>

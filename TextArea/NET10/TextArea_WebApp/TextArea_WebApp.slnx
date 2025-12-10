@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TextArea_WebApp.Client/TextArea_WebApp.Client.csproj" />
+  <Project Path="TextArea_WebApp/TextArea_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="3Dchart_WasmApp.Client/3Dchart_WasmApp.Client.csproj" />
+  <Project Path="3Dchart_WasmApp/3Dchart_WasmApp.csproj" />
+</Solution>
