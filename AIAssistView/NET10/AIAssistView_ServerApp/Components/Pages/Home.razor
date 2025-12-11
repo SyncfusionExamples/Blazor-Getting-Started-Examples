@@ -1,0 +1,50 @@
+﻿﻿
+@page "/"
+
+<div style="height: 350px; width: 650px;">
+    <SfAIAssistView PromptSuggestions="@TaskSuggestions" PromptRequested="@HandlePromptRequest"></SfAIAssistView>
+</div>
+
+@code {
+
+    List<string> TaskSuggestions = new List<string> 
+    { 
+        "How do I prioritize my tasks?",
+        "How can I improve my time management skills?" 
+    };
+
+    public class ChatResponseModel
+    {
+        public string? UserPrompt { get; set; }
+        public string? BotResponse { get; set; }
+    }
+
+    private List<ChatResponseModel> ResponseData = new List<ChatResponseModel>()
+    {
+        new ChatResponseModel() 
+        { 
+            UserPrompt = "How do I prioritize my tasks?", 
+            BotResponse = @"Prioritize tasks by urgency and impact: tackle high-impact tasks first,
+            delegate when possible, and break large tasks into smaller steps. For more assistance, 
+            feel free to ask—I’m here to help!" 
+        },
+        new ChatResponseModel() 
+        { 
+            UserPrompt = "How can I improve my time management skills?", 
+            BotResponse = @"To improve time management skills, try setting clear goals, using a planner
+            or digital tools, prioritizing tasks, breaking tasks into smaller steps, and minimizing 
+            distractions. Regularly review and adjust your approach for better efficiency." 
+        }
+    };
+
+    private async Task HandlePromptRequest(AssistViewPromptRequestedEventArgs args)
+    {
+        await Task.Delay(3000);
+        var isUserPromptFound = ResponseData.Any(data => data.UserPrompt == args.Prompt);
+        var matchedData = ResponseData.FirstOrDefault(data => data.UserPrompt == args.Prompt);
+        var fallbackResponse = @"For real-time prompt processing, connect the AI AssistView component 
+        to your preferred AI service, such as OpenAI or Azure Cognitive Services. Ensure you obtain 
+        the necessary API credentials to authenticate and enable seamless integration.";
+        args.Response = isUserPromptFound ? matchedData?.BotResponse : fallbackResponse;
+    }
+}
