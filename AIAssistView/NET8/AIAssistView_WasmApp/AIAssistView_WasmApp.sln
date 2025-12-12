@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIAssistView_WasmApp", "AIAssistView_WasmApp\AIAssistView_WasmApp.csproj", "{9E59A95F-A68D-4B41-8DF1-D95600ADAB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIAssistView_WasmApp.Client", "AIAssistView_WasmApp.Client\AIAssistView_WasmApp.Client.csproj", "{F1DAF298-8D6F-440C-83FC-E76FFBD253B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E59A95F-A68D-4B41-8DF1-D95600ADAB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E59A95F-A68D-4B41-8DF1-D95600ADAB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E59A95F-A68D-4B41-8DF1-D95600ADAB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E59A95F-A68D-4B41-8DF1-D95600ADAB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DAF298-8D6F-440C-83FC-E76FFBD253B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DAF298-8D6F-440C-83FC-E76FFBD253B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DAF298-8D6F-440C-83FC-E76FFBD253B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DAF298-8D6F-440C-83FC-E76FFBD253B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1C02A1C-056B-49AD-B3A0-2C5E882222D3}
+	EndGlobalSection
+EndGlobal
