@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Accordion_WebApp.Client/Accordion_WebApp.Client.csproj" />
+  <Project Path="Accordion_WebApp/Accordion_WebApp.csproj" />
+</Solution>

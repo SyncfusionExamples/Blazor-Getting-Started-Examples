@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Avatar_WebApp.Client/Avatar_WebApp.Client.csproj" />
+  <Project Path="Avatar_WebApp/Avatar_WebApp.csproj" />
+</Solution>

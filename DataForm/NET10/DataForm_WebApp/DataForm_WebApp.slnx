@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DataForm_WebApp.Client/DataForm_WebApp.Client.csproj" />
+  <Project Path="DataForm_WebApp/DataForm_WebApp.csproj" />
+</Solution>

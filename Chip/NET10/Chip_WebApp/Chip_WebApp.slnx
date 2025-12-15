@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Chip_WebApp.Client/Chip_WebApp.Client.csproj" />
+  <Project Path="Chip_WebApp/Chip_WebApp.csproj" />
+</Solution>

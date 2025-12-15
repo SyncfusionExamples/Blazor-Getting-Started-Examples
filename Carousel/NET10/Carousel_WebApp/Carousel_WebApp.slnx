@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Carousel_WebApp.Client/Carousel_WebApp.Client.csproj" />
+  <Project Path="Carousel_WebApp/Carousel_WebApp.csproj" />
+</Solution>

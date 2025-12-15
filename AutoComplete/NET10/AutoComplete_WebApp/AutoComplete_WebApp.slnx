@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AutoComplete_WebApp.Client/AutoComplete_WebApp.Client.csproj" />
+  <Project Path="AutoComplete_WebApp/AutoComplete_WebApp.csproj" />
+</Solution>

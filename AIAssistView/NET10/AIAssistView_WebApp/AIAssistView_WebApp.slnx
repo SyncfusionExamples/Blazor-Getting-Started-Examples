@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AIAssistView_WebApp.Client/AIAssistView_WebApp.Client.csproj" />
+  <Project Path="AIAssistView_WebApp/AIAssistView_WebApp.csproj" />
+</Solution>

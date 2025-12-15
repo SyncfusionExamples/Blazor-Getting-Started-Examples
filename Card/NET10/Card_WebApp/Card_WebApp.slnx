@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Card_WebApp.Client/Card_WebApp.Client.csproj" />
+  <Project Path="Card_WebApp/Card_WebApp.csproj" />
+</Solution>

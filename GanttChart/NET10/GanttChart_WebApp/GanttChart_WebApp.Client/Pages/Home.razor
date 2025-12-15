@@ -1,0 +1,63 @@
+@page "/"
+
+
+<SfGantt DataSource="@TaskCollection" Height="450px" Width="700px" AllowFiltering="true" AllowSorting="true">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" Child="SubTasks">
+    </GanttTaskFields>
+    <GanttEditSettings AllowEditing="true" Mode="Syncfusion.Blazor.Gantt.EditMode.Auto" AllowTaskbarEditing="true"></GanttEditSettings>
+    <GanttColumns>
+        <GanttColumn Field="TaskId" HeaderText="Task ID" TextAlign="TextAlign.Right" Width="100"></GanttColumn>
+        <GanttColumn Field="TaskName" HeaderText="Task Name" Width="250"></GanttColumn>
+        <GanttColumn Field="StartDate" HeaderText="Start Date" Width="250"></GanttColumn>
+        <GanttColumn Field="Duration" HeaderText="Duration" Width="250"></GanttColumn>
+        <GanttColumn Field="Progress" HeaderText="Progress" Width="250"></GanttColumn>
+    </GanttColumns>
+</SfGantt>
+
+@code{
+public List<TaskData> TaskCollection { get; set; }
+protected override void OnInitialized()
+{
+    this.TaskCollection = GetTaskCollection();
+}
+
+public class TaskData
+{
+    public int TaskId { get; set; }
+    public string TaskName { get; set; }
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
+    public string Duration { get; set; }
+    public int Progress { get; set; }
+    public List<TaskData> SubTasks { get; set; }
+}
+
+public static List <TaskData> GetTaskCollection() {
+    List <TaskData> Tasks = new List <TaskData> () {
+        new TaskData() {
+            TaskId = 1,
+            TaskName = "Project initiation",
+            StartDate = new DateTime(2019, 04, 02),
+            EndDate = new DateTime(2019, 04, 21),
+            SubTasks = (new List <TaskData> () {
+                new TaskData() {
+                    TaskId = 2,
+                    TaskName = "Identify Site location",
+                    StartDate = new DateTime(2019, 04, 02),
+                    Duration = "4",
+                    Progress = 50,
+                },
+                new TaskData() {
+                    TaskId = 3,
+                    TaskName = "Perform soil test",
+                    StartDate = new DateTime(2019, 04, 02),
+                    Duration = "4",
+                    Progress = 50,
+                }
+            })
+        }
+    };
+
+    return Tasks;
+}
+}

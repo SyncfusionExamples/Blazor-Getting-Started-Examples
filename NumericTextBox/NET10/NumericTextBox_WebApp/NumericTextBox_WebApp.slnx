@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NumericTextBox_WebApp.Client/NumericTextBox_WebApp.Client.csproj" />
+  <Project Path="NumericTextBox_WebApp/NumericTextBox_WebApp.csproj" />
+</Solution>

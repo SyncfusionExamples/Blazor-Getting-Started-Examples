@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PDFViewer2_WebApp.Client/PDFViewer2_WebApp.Client.csproj" />
+  <Project Path="PDFViewer2_WebApp/PDFViewer2_WebApp.csproj" />
+</Solution>

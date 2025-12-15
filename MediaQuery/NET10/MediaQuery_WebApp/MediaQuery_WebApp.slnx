@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MediaQuery_WebApp.Client/MediaQuery_WebApp.Client.csproj" />
+  <Project Path="MediaQuery_WebApp/MediaQuery_WebApp.csproj" />
+</Solution>

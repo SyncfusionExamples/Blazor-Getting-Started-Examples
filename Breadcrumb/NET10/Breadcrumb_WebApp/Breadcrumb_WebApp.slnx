@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Breadcrumb_WebApp.Client/Breadcrumb_WebApp.Client.csproj" />
+  <Project Path="Breadcrumb_WebApp/Breadcrumb_WebApp.csproj" />
+</Solution>

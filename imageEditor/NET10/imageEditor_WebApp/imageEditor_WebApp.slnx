@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="imageEditor_WebApp.Client/imageEditor_WebApp.Client.csproj" />
+  <Project Path="imageEditor_WebApp/imageEditor_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LinearGauge_WebApp.Client/LinearGauge_WebApp.Client.csproj" />
+  <Project Path="LinearGauge_WebApp/LinearGauge_WebApp.csproj" />
+</Solution>

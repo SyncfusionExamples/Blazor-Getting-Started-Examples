@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Mention_WebApp.Client/Mention_WebApp.Client.csproj" />
+  <Project Path="Mention_WebApp/Mention_WebApp.csproj" />
+</Solution>

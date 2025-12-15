@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MenuBar_WebApp.Client/MenuBar_WebApp.Client.csproj" />
+  <Project Path="MenuBar_WebApp/MenuBar_WebApp.csproj" />
+</Solution>

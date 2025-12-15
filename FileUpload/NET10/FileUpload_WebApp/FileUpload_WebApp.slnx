@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FileUpload_WebApp.Client/FileUpload_WebApp.Client.csproj" />
+  <Project Path="FileUpload_WebApp/FileUpload_WebApp.csproj" />
+</Solution>

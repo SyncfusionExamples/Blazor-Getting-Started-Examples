@@ -1,0 +1,69 @@
+@page "/"
+
+<!-- SfChatUI component that sets up the Blazor chat interface with various configurations -->
+<SfChatUI HeaderText="Feature Testing Collaboration"
+          ShowTimeBreak="true" TimestampFormat="MMMM hh:mm tt" User="ProductManager"
+          Width="400px" Height="500px" Messages="ChatUserMessages">
+    <!-- Empty chat template to display when no messages are present -->
+    <EmptyChatTemplate>
+        <div class="empty-chat-text">
+            <h4><span class="e-icons e-comment-show"></span></h4>
+            <h5>No Messages Yet</h5>
+            <p>Start a conversation to see your messages here.</p>
+        </div>
+    </EmptyChatTemplate>
+</SfChatUI>
+
+<!-- Styling for the empty chat message -->
+<style>
+    .empty-chat-text {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35%;
+        justify-content: center;
+    }
+</style>
+
+@code {
+
+    // Defining static user models for the participants in the chat
+    private static UserModel ProductManager = new UserModel() { ID = "User1", User = "Thomas Cooper" };
+    private static UserModel Tester = new UserModel() { ID = "User2", User = "James Carter" };
+    private static UserModel Developer = new UserModel() { ID = "User3", User = "David Morgan", AvatarUrl = "images/Developer.jpg" };
+
+    // List of messages to display in the chat
+    private List<ChatMessage> ChatUserMessages = new List<ChatMessage>()
+    {
+        new ChatMessage() { Text = "Did you complete the test cases for the new feature?",
+            Author = ProductManager, Timestamp = new DateTime(2024,12,23,12,15,0) },
+
+        new ChatMessage() { Text = "Yes, they’re ready. I’ve shared the document with you.",
+            Author = Tester, Timestamp = new DateTime(2024,12,23,1,15,0) },
+
+        // Time break message on December 24th
+        new ChatMessage() { Text = "Great! I’ll review them and get back to you with any feedback.",
+            Author = ProductManager, Timestamp = new DateTime(2024,12,24,9,00,0) },
+
+        new ChatMessage() { Text = "Just a heads up, I’m working on the fixes for the reported bugs.",
+            Author = Developer, Timestamp = new DateTime(2024,12,24,9,05,0) },
+
+        new ChatMessage() { Text = "Thanks, David Morgan! I’ll check them and make sure the fixes align with the test cases.",
+            Author = ProductManager, Timestamp = new DateTime(2024,12,24,10,45,0) },
+
+        new ChatMessage() { Text = "I’ll review the test cases and update any changes if needed.",
+            Author = Tester, Timestamp = new DateTime(2024,12,24,11,55,0) },
+
+        new ChatMessage() { Text = "Once the test cases are updated, we should run a full regression test tomorrow.",
+            Author = ProductManager, Timestamp = new DateTime(2024,12,24,12,05,0) },
+
+        new ChatMessage() { Text = "Absolutely! We’ll prioritize the critical features testing first.",
+            Author = Tester, Timestamp = new DateTime(2024,12,24,12,10,0) },
+
+        new ChatMessage() { Text = "I’ll start working on those as soon as the bug fixes are done.",
+            Author = Developer, Timestamp = new DateTime(2024,12,24,12,15,0) }
+    };
+}
+
+

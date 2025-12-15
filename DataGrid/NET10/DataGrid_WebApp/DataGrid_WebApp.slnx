@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DataGrid_WebApp.Client/DataGrid_WebApp.Client.csproj" />
+  <Project Path="DataGrid_WebApp/DataGrid_WebApp.csproj" />
+</Solution>

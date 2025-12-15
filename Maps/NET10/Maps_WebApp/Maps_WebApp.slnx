@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Maps_WebApp.Client/Maps_WebApp.Client.csproj" />
+  <Project Path="Maps_WebApp/Maps_WebApp.csproj" />
+</Solution>

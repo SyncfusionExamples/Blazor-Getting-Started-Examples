@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MaskedTextBox_WebApp.Client/MaskedTextBox_WebApp.Client.csproj" />
+  <Project Path="MaskedTextBox_WebApp/MaskedTextBox_WebApp.csproj" />
+</Solution>

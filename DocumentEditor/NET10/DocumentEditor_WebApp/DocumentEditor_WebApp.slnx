@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DocumentEditor_WebApp.Client/DocumentEditor_WebApp.Client.csproj" />
+  <Project Path="DocumentEditor_WebApp/DocumentEditor_WebApp.csproj" />
+</Solution>

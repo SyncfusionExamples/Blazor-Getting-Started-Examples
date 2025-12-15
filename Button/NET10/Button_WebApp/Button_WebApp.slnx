@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Button_WebApp.Client/Button_WebApp.Client.csproj" />
+  <Project Path="Button_WebApp/Button_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DropDownList_WebApp.Client/DropDownList_WebApp.Client.csproj" />
+  <Project Path="DropDownList_WebApp/DropDownList_WebApp.csproj" />
+</Solution>
