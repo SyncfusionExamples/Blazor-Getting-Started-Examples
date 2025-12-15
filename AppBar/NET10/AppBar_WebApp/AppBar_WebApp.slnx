@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AppBar_WebApp.Client/AppBar_WebApp.Client.csproj" />
+  <Project Path="AppBar_WebApp/AppBar_WebApp.csproj" />
+</Solution>

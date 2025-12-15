@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Barcode_WebApp.Client/Barcode_WebApp.Client.csproj" />
+  <Project Path="Barcode_WebApp/Barcode_WebApp.csproj" />
+</Solution>

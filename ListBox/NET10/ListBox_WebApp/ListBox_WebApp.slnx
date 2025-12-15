@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ListBox_WebApp.Client/ListBox_WebApp.Client.csproj" />
+  <Project Path="ListBox_WebApp/ListBox_WebApp.csproj" />
+</Solution>

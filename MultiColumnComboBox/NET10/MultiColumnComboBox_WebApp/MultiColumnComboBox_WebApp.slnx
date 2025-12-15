@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MultiColumnComboBox_WebApp.Client/MultiColumnComboBox_WebApp.Client.csproj" />
+  <Project Path="MultiColumnComboBox_WebApp/MultiColumnComboBox_WebApp.csproj" />
+</Solution>

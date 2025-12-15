@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AccumulationChart_WebApp.Client/AccumulationChart_WebApp.Client.csproj" />
+  <Project Path="AccumulationChart_WebApp/AccumulationChart_WebApp.csproj" />
+</Solution>

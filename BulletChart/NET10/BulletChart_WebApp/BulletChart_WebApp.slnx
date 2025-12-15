@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BulletChart_WebApp.Client/BulletChart_WebApp.Client.csproj" />
+  <Project Path="BulletChart_WebApp/BulletChart_WebApp.csproj" />
+</Solution>

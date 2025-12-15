@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ComboBox_WebApp.Client/ComboBox_WebApp.Client.csproj" />
+  <Project Path="ComboBox_WebApp/ComboBox_WebApp.csproj" />
+</Solution>

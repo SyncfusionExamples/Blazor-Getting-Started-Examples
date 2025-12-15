@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Calendar_WebApp.Client/Calendar_WebApp.Client.csproj" />
+  <Project Path="Calendar_WebApp/Calendar_WebApp.csproj" />
+</Solution>

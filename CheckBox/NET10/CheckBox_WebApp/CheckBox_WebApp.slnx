@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CheckBox_WebApp.Client/CheckBox_WebApp.Client.csproj" />
+  <Project Path="CheckBox_WebApp/CheckBox_WebApp.csproj" />
+</Solution>

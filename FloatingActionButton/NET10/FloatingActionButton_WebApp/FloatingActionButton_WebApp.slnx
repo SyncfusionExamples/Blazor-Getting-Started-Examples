@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FloatingActionButton_WebApp.Client/FloatingActionButton_WebApp.Client.csproj" />
+  <Project Path="FloatingActionButton_WebApp/FloatingActionButton_WebApp.csproj" />
+</Solution>

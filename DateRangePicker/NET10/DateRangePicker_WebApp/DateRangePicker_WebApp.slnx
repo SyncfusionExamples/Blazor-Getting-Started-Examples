@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DateRangePicker_WebApp.Client/DateRangePicker_WebApp.Client.csproj" />
+  <Project Path="DateRangePicker_WebApp/DateRangePicker_WebApp.csproj" />
+</Solution>

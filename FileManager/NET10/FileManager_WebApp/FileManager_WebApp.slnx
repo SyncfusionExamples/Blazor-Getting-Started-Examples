@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FileManager_WebApp.Client/FileManager_WebApp.Client.csproj" />
+  <Project Path="FileManager_WebApp/FileManager_WebApp.csproj" />
+</Solution>

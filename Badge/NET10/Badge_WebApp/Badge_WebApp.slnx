@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Badge_WebApp.Client/Badge_WebApp.Client.csproj" />
+  <Project Path="Badge_WebApp/Badge_WebApp.csproj" />
+</Solution>

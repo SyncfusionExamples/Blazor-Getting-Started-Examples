@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DashboardLayout_WebApp.Client/DashboardLayout_WebApp.Client.csproj" />
+  <Project Path="DashboardLayout_WebApp/DashboardLayout_WebApp.csproj" />
+</Solution>

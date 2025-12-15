@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DateTimePicker_WebApp.Client/DateTimePicker_WebApp.Client.csproj" />
+  <Project Path="DateTimePicker_WebApp/DateTimePicker_WebApp.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HeatMapChart_WebApp.Client/HeatMapChart_WebApp.Client.csproj" />
+  <Project Path="HeatMapChart_WebApp/HeatMapChart_WebApp.csproj" />
+</Solution>
