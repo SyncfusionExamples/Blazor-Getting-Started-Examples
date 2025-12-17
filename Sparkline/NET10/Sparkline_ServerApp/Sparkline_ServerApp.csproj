@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Sparkline" Version="31.2.14" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.14" />
+    <PackageReference Include="Syncfusion.Blazor.Sparkline" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
   </ItemGroup>
 
 </Project>

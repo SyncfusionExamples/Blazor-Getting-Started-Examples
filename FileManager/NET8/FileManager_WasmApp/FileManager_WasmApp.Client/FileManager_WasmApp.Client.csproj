@@ -10,8 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.22" />
-    <PackageReference Include="Syncfusion.Blazor.FileManager" Version="31.2.12" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.Blazor.FileManager" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
   </ItemGroup>
 
 </Project>

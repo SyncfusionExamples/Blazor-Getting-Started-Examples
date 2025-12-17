@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="31.2.12" />
-    <PackageReference Include="Syncfusion.Blazor.InPlaceEditor" Version="31.2.12" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.InPlaceEditor" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
   </ItemGroup>
 
 </Project>

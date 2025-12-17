@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="31.2.12" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
   </ItemGroup>
 
 </Project>

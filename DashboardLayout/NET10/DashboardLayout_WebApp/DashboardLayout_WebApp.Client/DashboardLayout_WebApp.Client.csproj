@@ -12,11 +12,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.1" />
   
-  <PackageReference Include="Syncfusion.Blazor.Charts" Version="31.2.14" />
-  <PackageReference Include="Syncfusion.Blazor.Grid" Version="31.2.14" />
-  <PackageReference Include="Syncfusion.Blazor.Layouts" Version="31.2.14" />
-  <PackageReference Include="Syncfusion.Blazor.RangeNavigator" Version="31.2.14" />
-  <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.14" />
+  <PackageReference Include="Syncfusion.Blazor.Charts" Version="32.1.19" />
+  <PackageReference Include="Syncfusion.Blazor.Grid" Version="32.1.19" />
+  <PackageReference Include="Syncfusion.Blazor.Layouts" Version="32.1.19" />
+  <PackageReference Include="Syncfusion.Blazor.RangeNavigator" Version="32.1.19" />
+  <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
 </ItemGroup>
 
 </Project>

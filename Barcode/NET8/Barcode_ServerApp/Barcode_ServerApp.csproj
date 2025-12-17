@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.BarcodeGenerator" Version="31.2.12" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="31.2.12" />
+    <PackageReference Include="Syncfusion.Blazor.BarcodeGenerator" Version="32.1.19" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.1.19" />
   </ItemGroup>
 
 </Project>
