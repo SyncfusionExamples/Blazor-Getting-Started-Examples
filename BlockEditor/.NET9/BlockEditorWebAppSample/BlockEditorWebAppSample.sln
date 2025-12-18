@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockEditorWebAppSample", "BlockEditorWebAppSample\BlockEditorWebAppSample.csproj", "{9783736D-6196-4656-B77E-093E0AD2EDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockEditorWebAppSample.Client", "BlockEditorWebAppSample.Client\BlockEditorWebAppSample.Client.csproj", "{34049BDB-0FB1-48FA-910F-715578ED027E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9783736D-6196-4656-B77E-093E0AD2EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9783736D-6196-4656-B77E-093E0AD2EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9783736D-6196-4656-B77E-093E0AD2EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9783736D-6196-4656-B77E-093E0AD2EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34049BDB-0FB1-48FA-910F-715578ED027E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34049BDB-0FB1-48FA-910F-715578ED027E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34049BDB-0FB1-48FA-910F-715578ED027E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34049BDB-0FB1-48FA-910F-715578ED027E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5152EA9-9E59-4D95-98BE-1265026FB522}
+	EndGlobalSection
+EndGlobal
