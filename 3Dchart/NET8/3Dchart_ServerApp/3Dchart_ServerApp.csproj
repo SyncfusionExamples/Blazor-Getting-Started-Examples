@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="Syncfusion.Blazor.Chart3D" Version="31.2.12" />
+	<PackageReference Include="Syncfusion.Blazor.Chart3D" Version="32.1.19" />
   </ItemGroup>
 
 </Project>

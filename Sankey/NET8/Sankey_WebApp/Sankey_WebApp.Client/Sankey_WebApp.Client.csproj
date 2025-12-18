@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.22" />
   
-  <PackageReference Include="Syncfusion.Blazor.Sankey" Version="31.2.14" />
+  <PackageReference Include="Syncfusion.Blazor.Sankey" Version="32.1.19" />
 </ItemGroup>
 
 </Project>

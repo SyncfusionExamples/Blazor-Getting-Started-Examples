@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Blazor.Sankey" Version="31.2.14" />
+    <PackageReference Include="Syncfusion.Blazor.Sankey" Version="32.1.19" />
   </ItemGroup>
 
 </Project>
