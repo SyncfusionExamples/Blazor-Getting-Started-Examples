@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BlockEditor_WebApp.Client/BlockEditor_WebApp.Client.csproj" />
+  <Project Path="BlockEditor_WebApp/BlockEditor_WebApp.csproj" />
+</Solution>
