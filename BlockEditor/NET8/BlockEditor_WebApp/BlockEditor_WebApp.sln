@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockEditor_WebApp", "BlockEditor_WebApp\BlockEditor_WebApp.csproj", "{58F87F71-650F-4E60-835D-D01F3B82EE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockEditor_WebApp.Client", "BlockEditor_WebApp.Client\BlockEditor_WebApp.Client.csproj", "{B591CC7E-0B0B-4C36-8EF2-7FE534B2C3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58F87F71-650F-4E60-835D-D01F3B82EE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F87F71-650F-4E60-835D-D01F3B82EE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F87F71-650F-4E60-835D-D01F3B82EE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F87F71-650F-4E60-835D-D01F3B82EE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B591CC7E-0B0B-4C36-8EF2-7FE534B2C3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B591CC7E-0B0B-4C36-8EF2-7FE534B2C3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B591CC7E-0B0B-4C36-8EF2-7FE534B2C3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B591CC7E-0B0B-4C36-8EF2-7FE534B2C3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {723C412A-6CB9-4C3F-95A0-BCD6967CC46B}
+	EndGlobalSection
+EndGlobal
