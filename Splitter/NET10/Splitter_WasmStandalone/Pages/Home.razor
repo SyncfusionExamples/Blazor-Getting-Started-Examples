@@ -1,0 +1,32 @@
+@page "/"
+
+<div>Horizontal Splitter</div>
+
+<SfSplitter Height="240px" Width="100%">
+    <SplitterPanes>
+        <SplitterPane>
+            <ContentTemplate>
+                <div class="centered-content"> Left Pane </div>
+            </ContentTemplate>
+        </SplitterPane>
+        <SplitterPane>
+            <ContentTemplate>
+                <div class="centered-content"> Middle Pane </div>
+            </ContentTemplate>
+        </SplitterPane>
+        <SplitterPane>
+            <ContentTemplate>
+                <div class="centered-content"> Right Pane </div>
+            </ContentTemplate>
+        </SplitterPane>
+    </SplitterPanes>
+</SfSplitter>
+
+<style>
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+</style>

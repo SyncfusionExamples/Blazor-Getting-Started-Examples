@@ -1,0 +1,8 @@
+@page "/"
+
+<SfRadioButton Label="Option 1" Name="options" Value="card" @bind-Checked="stringChecked"></SfRadioButton>
+<SfRadioButton Label="Option 2" Name="options" Value="cash" @bind-Checked="stringChecked"></SfRadioButton>
+
+@code {
+    private string stringChecked = "cash";
+}
