@@ -1,0 +1,59 @@
+@page "/"
+
+<SfChip>
+    <ChipItems>
+        <ChipItem Text="Janet Leverling"></ChipItem>
+    </ChipItems>
+</SfChip>
+
+@if(ChipData.Count != 0) {
+<SfChip EnableDelete="true">
+    <ChipItems>
+        @foreach (ChipCollection currentData in ChipData)
+        {
+             <ChipItem Text=@currentData.text Enabled=@currentData.enabled> </ChipItem>
+        }
+    </ChipItems>
+</SfChip>
+<SfChip>
+    <ChipItems>
+        <ChipItem Text="Janet Leverling"></ChipItem>
+    </ChipItems>
+</SfChip>
+}
+
+@code{
+
+    public List<ChipCollection> ChipData = new List<ChipCollection>();
+    public class ChipCollection
+    {
+        public string text { get; set; }
+        public bool enabled { get; set; }
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        await Task.Delay(2000);
+        ChipData.Add(new ChipCollection
+        {
+            text = "Jenifer",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Amenda",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Isabella",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "James",
+            enabled = true
+        });
+
+    }
+}

@@ -1,0 +1,9 @@
+@page "/"
+
+<label for="checked" style="padding: 10px 10px 10px 0">USB Tethering</label>
+
+<SfSwitch @bind-Checked="isChecked" OnLabel="On" OffLabel="Off"></SfSwitch>
+
+@code {
+    private bool isChecked = true;
+}

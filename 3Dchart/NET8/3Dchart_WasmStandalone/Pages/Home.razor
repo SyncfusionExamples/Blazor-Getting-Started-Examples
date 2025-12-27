@@ -1,0 +1,33 @@
+@page "/"
+
+<SfChart3D Title="Sales Analysis" EnableRotation="true" RotationAngle="10" TiltAngle="20" Depth="200">
+    <Chart3DPrimaryXAxis Title="Month" ValueType="Syncfusion.Blazor.Chart3D.ValueType.Category"></Chart3DPrimaryXAxis>
+    <Chart3DPrimaryYAxis Title="Sales in Dollar"></Chart3DPrimaryYAxis>
+    <Chart3DLegendSettings Visible="true"></Chart3DLegendSettings>
+    <Chart3DTooltipSettings Enable="true"></Chart3DTooltipSettings>
+    <Chart3DSeriesCollection>
+        <Chart3DSeries DataSource="@Sales" Name="Sales" XName="Month" YName="SalesValue" Type="Chart3DSeriesType.Column">
+            <Chart3DDataLabel Visible="true"></Chart3DDataLabel>
+        </Chart3DSeries>
+    </Chart3DSeriesCollection>
+</SfChart3D>
+
+@code {
+
+    public class SalesInfo
+    {
+        public string? Month { get; set; }
+        public double SalesValue { get; set; }
+    }
+
+    public List<SalesInfo> Sales = new List<SalesInfo>
+    {
+        new SalesInfo { Month = "Jan", SalesValue = 35 },
+        new SalesInfo { Month = "Feb", SalesValue = 28 },
+        new SalesInfo { Month = "Mar", SalesValue = 34 },
+        new SalesInfo { Month = "Apr", SalesValue = 32 },
+        new SalesInfo { Month = "May", SalesValue = 40 },
+        new SalesInfo { Month = "Jun", SalesValue = 32 },
+        new SalesInfo { Month = "Jul", SalesValue = 35 }
+    };
+}

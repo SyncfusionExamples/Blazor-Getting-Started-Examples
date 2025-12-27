@@ -1,0 +1,63 @@
+@page "/"
+
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Navigations
+@using Syncfusion.Blazor.Lists
+
+<div class="col-lg-12 control-section sb-property-border">
+    @{
+        var listData = ListData.Skip(SkipValue).Take(TakeValue).ToList();
+        <SfListView @ref="@List" DataSource="@listData" TValue="DataModel" HeaderTitle="Contacts" ShowHeader="true">
+            <ListViewFieldSettings TValue="DataModel" Id="Id" Text="Name"></ListViewFieldSettings>
+        </SfListView>
+    }
+    <SfPager @ref="@Page" PageSize=5 NumericItemsCount=4 TotalItemsCount=25 ItemClick="Click">
+    </SfPager>
+</div>
+@code {
+    SfPager Page;
+    public SfListView<DataModel> List { get; set; }
+    public int SkipValue;
+    public int TakeValue = 5;
+    List<DataModel> ListData = new List<DataModel>();
+    protected override void OnInitialized ()
+    {
+        base.OnInitialized();
+        ListData.Add(new DataModel { Name = "Nancy, Berlin, France" });
+        ListData.Add(new DataModel { Name = "Andrew, Madrid, Germany" });
+        ListData.Add(new DataModel { Name = "Janet, London, Brazil" });
+        ListData.Add(new DataModel { Name = "Margaret, Marseille, Belgium" });
+        ListData.Add(new DataModel { Name = "Steven, Cholchester, Switzerland" });
+        ListData.Add(new DataModel { Name = "Laura , Tsawassen, Venezuela" });
+        ListData.Add(new DataModel { Name = "Robert, Tacoma, Austria" });
+        ListData.Add(new DataModel { Name = "Michael, Redmond, Mexico" });
+        ListData.Add(new DataModel { Name = "Albert, Kirkland, USA" });
+        ListData.Add(new DataModel { Name = "Nolan, London, Sweden" });
+        ListData.Add(new DataModel { Name = "Jennifer, Berlin, Finland" });
+        ListData.Add(new DataModel { Name = "Carter, Madrid, Italy" });
+        ListData.Add(new DataModel { Name = "Allison, Marseille, Spain" });
+        ListData.Add(new DataModel { Name = "John, Tsawassen, UK" });
+        ListData.Add(new DataModel { Name = "Susan, Redmond, Ireland" });
+        ListData.Add(new DataModel { Name = "Lydia, Cholchester, Portugal" });
+        ListData.Add(new DataModel { Name = "Kelsey, London, Canada" });
+        ListData.Add(new DataModel { Name = "Jessica, Kirkland, Denmark" });
+        ListData.Add(new DataModel { Name = "Robert, Berlin, Austria" });
+        ListData.Add(new DataModel { Name = "Shelley, Tacoma, Poland" });
+        ListData.Add(new DataModel { Name = "Vanjack, Tsawassen, Norway" });
+        ListData.Add(new DataModel { Name = "shelley, Cholchester, Argentina" });
+        ListData.Add(new DataModel { Name = "Lydia, Kirkland, Finland" });
+        ListData.Add(new DataModel { Name = "Jessica, Madrid, Sweden" });
+        ListData.Add(new DataModel { Name = "Nolan, London, UK" });
+        ListData.Add(new DataModel { Name = "Jennifer, Redmond, Italy" });
+    }
+    public void Click ( PagerItemClickEventArgs args )
+    {
+        SkipValue = (args.CurrentPage * Page.PageSize) - Page.PageSize;
+        TakeValue = Page.PageSize;
+    }
+    public class DataModel
+    {
+        public string Name { get; set; }
+        public string Id { get; set; }
+    }
+}

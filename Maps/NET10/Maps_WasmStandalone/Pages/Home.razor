@@ -1,0 +1,48 @@
+@page "/"
+
+<SfMaps>
+    <MapsTitleSettings Text="Members of the UN Security Council"></MapsTitleSettings>
+    <MapsLegendSettings Visible="true"></MapsLegendSettings>
+    <MapsLayers>
+        <MapsLayer ShapeData='new {dataOptions= "https://cdn.syncfusion.com/maps/map-data/world-map.json"}'
+                   ShapePropertyPath='new string[] {"name"}'
+                   DataSource="SecurityCouncilDetails"
+                   ShapeDataPath="Name" TValue="UNCouncilCountry">
+            <MapsDataLabelSettings Visible="true" LabelPath="Name" IntersectionAction="IntersectAction.Hide"></MapsDataLabelSettings>
+            <MapsShapeSettings Fill="#E5E5E5" ColorValuePath="Membership">
+                <MapsShapeColorMappings>
+                    <MapsShapeColorMapping Value="Permanent" Color='new string[] {"#EDB46F"}'></MapsShapeColorMapping>
+                    <MapsShapeColorMapping Value="Non-Permanent" Color='new string[] {"#F1931B"}'></MapsShapeColorMapping>
+                </MapsShapeColorMappings>
+            </MapsShapeSettings>
+            @* To add tooltip for the shape *@
+            <MapsLayerTooltipSettings Visible='true' ValuePath="Name"></MapsLayerTooltipSettings>
+        </MapsLayer>
+    </MapsLayers>
+</SfMaps>
+
+@code {
+    public List<UNCouncilCountry> SecurityCouncilDetails = new List<UNCouncilCountry>{
+         new UNCouncilCountry { Name= "China", Membership= "Permanent"},
+         new UNCouncilCountry { Name= "France", Membership= "Permanent" },
+         new UNCouncilCountry { Name= "Russia", Membership= "Permanent"},
+         new UNCouncilCountry { Name= "Kazakhstan", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Poland", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Sweden", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "United Kingdom", Membership= "Permanent"},
+         new UNCouncilCountry { Name= "United States", Membership= "Permanent"},
+         new UNCouncilCountry { Name= "Bolivia", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Eq. Guinea", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Ethiopia", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Côte d Ivoire", Membership= "Permanent"},
+         new UNCouncilCountry { Name= "Kuwait", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Netherlands", Membership= "Non-Permanent"},
+         new UNCouncilCountry { Name= "Peru", Membership= "Non-Permanent"}
+    };
+
+    public class UNCouncilCountry
+    {
+        public string Name { get; set; }
+        public string Membership { get; set; }
+    };
+}
