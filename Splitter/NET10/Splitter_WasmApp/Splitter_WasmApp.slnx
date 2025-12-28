@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Splitter_WasmApp.Client/Splitter_WasmApp.Client.csproj" />
-  <Project Path="Splitter_WasmApp/Splitter_WasmApp.csproj" />
-</Solution>

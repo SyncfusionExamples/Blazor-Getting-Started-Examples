@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="FloatingActionButton_WasmApp.Client/FloatingActionButton_WasmApp.Client.csproj" />
-  <Project Path="FloatingActionButton_WasmApp/FloatingActionButton_WasmApp.csproj" />
-</Solution>

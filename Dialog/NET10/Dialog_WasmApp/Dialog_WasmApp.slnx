@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Dialog_WasmApp.Client/Dialog_WasmApp.Client.csproj" />
-  <Project Path="Dialog_WasmApp/Dialog_WasmApp.csproj" />
-</Solution>

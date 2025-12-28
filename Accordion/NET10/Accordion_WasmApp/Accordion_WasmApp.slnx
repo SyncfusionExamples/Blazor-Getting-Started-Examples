@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Accordion_WasmApp.Client/Accordion_WasmApp.Client.csproj" />
-  <Project Path="Accordion_WasmApp/Accordion_WasmApp.csproj" />
-</Solution>

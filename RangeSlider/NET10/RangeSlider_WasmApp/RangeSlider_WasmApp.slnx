@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="RangeSlider_WasmApp.Client/RangeSlider_WasmApp.Client.csproj" />
-  <Project Path="RangeSlider_WasmApp/RangeSlider_WasmApp.csproj" />
-</Solution>

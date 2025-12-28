@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Card_WasmApp.Client/Card_WasmApp.Client.csproj" />
-  <Project Path="Card_WasmApp/Card_WasmApp.csproj" />
-</Solution>

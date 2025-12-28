@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Tooltip_WasmApp.Client/Tooltip_WasmApp.Client.csproj" />
-  <Project Path="Tooltip_WasmApp/Tooltip_WasmApp.csproj" />
-</Solution>

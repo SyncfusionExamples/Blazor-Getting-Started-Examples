@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="FileManager_WasmApp.Client/FileManager_WasmApp.Client.csproj" />
-  <Project Path="FileManager_WasmApp/FileManager_WasmApp.csproj" />
-</Solution>

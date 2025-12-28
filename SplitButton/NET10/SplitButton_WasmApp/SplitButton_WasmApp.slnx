@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="SplitButton_WasmApp.Client/SplitButton_WasmApp.Client.csproj" />
-  <Project Path="SplitButton_WasmApp/SplitButton_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DataGrid_WasmApp.Client/DataGrid_WasmApp.Client.csproj" />
-  <Project Path="DataGrid_WasmApp/DataGrid_WasmApp.csproj" />
-</Solution>

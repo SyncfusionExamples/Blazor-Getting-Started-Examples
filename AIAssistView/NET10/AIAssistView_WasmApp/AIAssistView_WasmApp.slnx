@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="AIAssistView_WasmApp.Client/AIAssistView_WasmApp.Client.csproj" />
-  <Project Path="AIAssistView_WasmApp/AIAssistView_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Chip_WasmApp.Client/Chip_WasmApp.Client.csproj" />
-  <Project Path="Chip_WasmApp/Chip_WasmApp.csproj" />
-</Solution>

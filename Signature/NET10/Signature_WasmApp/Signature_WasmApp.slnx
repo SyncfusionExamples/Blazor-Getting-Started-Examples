@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Signature_WasmApp.Client/Signature_WasmApp.Client.csproj" />
-  <Project Path="Signature_WasmApp/Signature_WasmApp.csproj" />
-</Solution>

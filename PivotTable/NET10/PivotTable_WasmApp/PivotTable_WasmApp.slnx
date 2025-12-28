@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="PivotTable_WasmApp.Client/PivotTable_WasmApp.Client.csproj" />
-  <Project Path="PivotTable_WasmApp/PivotTable_WasmApp.csproj" />
-</Solution>

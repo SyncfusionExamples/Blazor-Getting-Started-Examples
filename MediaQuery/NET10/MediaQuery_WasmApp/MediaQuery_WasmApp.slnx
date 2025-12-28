@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="MediaQuery_WasmApp.Client/MediaQuery_WasmApp.Client.csproj" />
-  <Project Path="MediaQuery_WasmApp/MediaQuery_WasmApp.csproj" />
-</Solution>

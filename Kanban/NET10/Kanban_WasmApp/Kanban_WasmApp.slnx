@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Kanban_WasmApp.Client/Kanban_WasmApp.Client.csproj" />
-  <Project Path="Kanban_WasmApp/Kanban_WasmApp.csproj" />
-</Solution>

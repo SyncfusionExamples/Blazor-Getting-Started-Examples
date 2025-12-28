@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="MultiSelectDropDown_WasmApp.Client/MultiSelectDropDown_WasmApp.Client.csproj" />
-  <Project Path="MultiSelectDropDown_WasmApp/MultiSelectDropDown_WasmApp.csproj" />
-</Solution>

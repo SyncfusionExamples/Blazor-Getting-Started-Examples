@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="NumericTextBox_WasmApp.Client/NumericTextBox_WasmApp.Client.csproj" />
-  <Project Path="NumericTextBox_WasmApp/NumericTextBox_WasmApp.csproj" />
-</Solution>

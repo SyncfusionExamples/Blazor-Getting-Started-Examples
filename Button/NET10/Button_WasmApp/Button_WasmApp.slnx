@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Button_WasmApp.Client/Button_WasmApp.Client.csproj" />
-  <Project Path="Button_WasmApp/Button_WasmApp.csproj" />
-</Solution>

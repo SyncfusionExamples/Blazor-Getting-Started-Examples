@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Badge_WasmApp.Client/Badge_WasmApp.Client.csproj" />
-  <Project Path="Badge_WasmApp/Badge_WasmApp.csproj" />
-</Solution>
