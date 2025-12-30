@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Stepper_WasmApp.Client/Stepper_WasmApp.Client.csproj" />
-  <Project Path="Stepper_WasmApp/Stepper_WasmApp.csproj" />
-</Solution>

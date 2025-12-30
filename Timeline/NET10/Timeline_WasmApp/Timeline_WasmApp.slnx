@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Timeline_WasmApp.Client/Timeline_WasmApp.Client.csproj" />
-  <Project Path="Timeline_WasmApp/Timeline_WasmApp.csproj" />
-</Solution>

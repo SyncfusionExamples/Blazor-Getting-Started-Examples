@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Scheduler_WasmApp.Client/Scheduler_WasmApp.Client.csproj" />
-  <Project Path="Scheduler_WasmApp/Scheduler_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="PDFViewer2_WasmApp.Client/PDFViewer2_WasmApp.Client.csproj" />
-  <Project Path="PDFViewer2_WasmApp/PDFViewer2_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="ListView_WasmApp.Client/ListView_WasmApp.Client.csproj" />
-  <Project Path="ListView_WasmApp/ListView_WasmApp.csproj" />
-</Solution>

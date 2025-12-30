@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Sankey_WasmApp.Client/Sankey_WasmApp.Client.csproj" />
-  <Project Path="Sankey_WasmApp/Sankey_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="InPlaceEditor_WasmApp.Client/InPlaceEditor_WasmApp.Client.csproj" />
-  <Project Path="InPlaceEditor_WasmApp/InPlaceEditor_WasmApp.csproj" />
-</Solution>

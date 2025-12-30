@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="TreeMap_WasmApp.Client/TreeMap_WasmApp.Client.csproj" />
-  <Project Path="TreeMap_WasmApp/TreeMap_WasmApp.csproj" />
-</Solution>

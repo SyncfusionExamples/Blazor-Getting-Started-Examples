@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DocumentEditor_WasmApp.Client/DocumentEditor_WasmApp.Client.csproj" />
-  <Project Path="DocumentEditor_WasmApp/DocumentEditor_WasmApp.csproj" />
-</Solution>

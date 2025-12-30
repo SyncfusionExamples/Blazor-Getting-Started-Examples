@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Calendar_WasmApp.Client/Calendar_WasmApp.Client.csproj" />
-  <Project Path="Calendar_WasmApp/Calendar_WasmApp.csproj" />
-</Solution>

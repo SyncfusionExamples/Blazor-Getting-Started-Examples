@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Barcode_WasmApp.Client/Barcode_WasmApp.Client.csproj" />
-  <Project Path="Barcode_WasmApp/Barcode_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Rating_WasmApp.Client/Rating_WasmApp.Client.csproj" />
-  <Project Path="Rating_WasmApp/Rating_WasmApp.csproj" />
-</Solution>

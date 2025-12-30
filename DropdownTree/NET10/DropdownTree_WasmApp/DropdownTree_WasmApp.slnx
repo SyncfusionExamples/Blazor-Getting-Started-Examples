@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DropdownTree_WasmApp.Client/DropdownTree_WasmApp.Client.csproj" />
-  <Project Path="DropdownTree_WasmApp/DropdownTree_WasmApp.csproj" />
-</Solution>

@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="HeatMapChart_WasmApp.Client/HeatMapChart_WasmApp.Client.csproj" />
-  <Project Path="HeatMapChart_WasmApp/HeatMapChart_WasmApp.csproj" />
-</Solution>

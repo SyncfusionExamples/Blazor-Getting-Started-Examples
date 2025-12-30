@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="TreeGrid_WasmApp.Client/TreeGrid_WasmApp.Client.csproj" />
-  <Project Path="TreeGrid_WasmApp/TreeGrid_WasmApp.csproj" />
-</Solution>

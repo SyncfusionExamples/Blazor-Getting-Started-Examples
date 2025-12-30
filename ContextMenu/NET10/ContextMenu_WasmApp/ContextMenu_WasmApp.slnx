@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="ContextMenu_WasmApp.Client/ContextMenu_WasmApp.Client.csproj" />
-  <Project Path="ContextMenu_WasmApp/ContextMenu_WasmApp.csproj" />
-</Solution>

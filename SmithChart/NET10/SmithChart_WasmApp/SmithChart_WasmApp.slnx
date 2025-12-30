@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="SmithChart_WasmApp.Client/SmithChart_WasmApp.Client.csproj" />
-  <Project Path="SmithChart_WasmApp/SmithChart_WasmApp.csproj" />
-</Solution>

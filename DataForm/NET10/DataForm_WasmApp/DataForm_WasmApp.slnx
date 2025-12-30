@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DataForm_WasmApp.Client/DataForm_WasmApp.Client.csproj" />
-  <Project Path="DataForm_WasmApp/DataForm_WasmApp.csproj" />
-</Solution>

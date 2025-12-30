@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="QueryBuilder_WasmApp.Client/QueryBuilder_WasmApp.Client.csproj" />
-  <Project Path="QueryBuilder_WasmApp/QueryBuilder_WasmApp.csproj" />
-</Solution>

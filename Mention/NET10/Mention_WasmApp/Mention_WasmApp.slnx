@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="Mention_WasmApp.Client/Mention_WasmApp.Client.csproj" />
-  <Project Path="Mention_WasmApp/Mention_WasmApp.csproj" />
-</Solution>

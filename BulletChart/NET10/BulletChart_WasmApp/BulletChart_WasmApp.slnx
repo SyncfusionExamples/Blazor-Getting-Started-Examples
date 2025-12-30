@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="BulletChart_WasmApp.Client/BulletChart_WasmApp.Client.csproj" />
-  <Project Path="BulletChart_WasmApp/BulletChart_WasmApp.csproj" />
-</Solution>

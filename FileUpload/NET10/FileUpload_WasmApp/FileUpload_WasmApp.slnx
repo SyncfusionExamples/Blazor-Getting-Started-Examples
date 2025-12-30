@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="FileUpload_WasmApp.Client/FileUpload_WasmApp.Client.csproj" />
-  <Project Path="FileUpload_WasmApp/FileUpload_WasmApp.csproj" />
-</Solution>

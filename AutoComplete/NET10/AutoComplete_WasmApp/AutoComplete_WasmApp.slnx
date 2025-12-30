@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="AutoComplete_WasmApp.Client/AutoComplete_WasmApp.Client.csproj" />
-  <Project Path="AutoComplete_WasmApp/AutoComplete_WasmApp.csproj" />
-</Solution>

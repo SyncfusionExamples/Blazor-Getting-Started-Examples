@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DiagramComponent_WasmApp.Client/DiagramComponent_WasmApp.Client.csproj" />
-  <Project Path="DiagramComponent_WasmApp/DiagramComponent_WasmApp.csproj" />
-</Solution>

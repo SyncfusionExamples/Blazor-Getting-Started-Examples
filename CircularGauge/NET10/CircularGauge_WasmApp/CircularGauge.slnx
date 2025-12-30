@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="CircularGauge_WasmApp.Client/CircularGauge_WasmApp.Client.csproj" />
-  <Project Path="CircularGauge_WasmApp/CircularGauge_WasmApp.csproj" />
-</Solution>

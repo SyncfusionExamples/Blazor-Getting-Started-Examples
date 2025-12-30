@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="CheckBox_WasmApp.Client/CheckBox_WasmApp.Client.csproj" />
-  <Project Path="CheckBox_WasmApp/CheckBox_WasmApp.csproj" />
-</Solution>

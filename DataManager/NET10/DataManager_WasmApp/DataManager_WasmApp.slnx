@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="DataManager_WasmApp.Client/DataManager_WasmApp.Client.csproj" />
-  <Project Path="DataManager_WasmApp/DataManager_WasmApp.csproj" />
-</Solution>

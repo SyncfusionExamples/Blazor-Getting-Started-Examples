@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="AppBar_WasmApp.Client/AppBar_WasmApp.Client.csproj" />
-  <Project Path="AppBar_WasmApp/AppBar_WasmApp.csproj" />
-</Solution>

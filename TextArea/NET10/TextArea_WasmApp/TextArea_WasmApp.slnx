@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="TextArea_WasmApp.Client/TextArea_WasmApp.Client.csproj" />
-  <Project Path="TextArea_WasmApp/TextArea_WasmApp.csproj" />
-</Solution>

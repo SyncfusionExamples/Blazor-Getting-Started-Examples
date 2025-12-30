@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="MenuBar_WasmApp.Client/MenuBar_WasmApp.Client.csproj" />
-  <Project Path="MenuBar_WasmApp/MenuBar_WasmApp.csproj" />
-</Solution>
