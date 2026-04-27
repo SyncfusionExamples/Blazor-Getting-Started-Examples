@@ -8,8 +8,8 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Syncfusion.Blazor.Spreadsheet" Version="33.1.49" />
-		<PackageReference Include="Syncfusion.Blazor.Themes" Version="33.1.49" />
+		<PackageReference Include="Syncfusion.Blazor.Spreadsheet" Version="31.1.49" />
+		<PackageReference Include="Syncfusion.Blazor.Themes" Version="31.1.49" />
 	</ItemGroup>
 
 </Project>
